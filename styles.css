@@ -1184,3 +1184,97 @@ h1 {
     padding: 20px;
   }
 }
+
+/* ==========================================================================
+   多選膠囊按鈕 (Pills Checkbox) 與地圖縮放氣泡樣式
+   ========================================================================== */
+
+.filter-group {
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-group:not(:last-child) {
+  border-bottom: 1px dashed var(--card-border);
+  padding-bottom: 14px;
+}
+
+.checkbox-pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.checkbox-pill-input {
+  display: none !important;
+}
+
+.checkbox-pill-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #ffffff;
+  border: 1px solid var(--card-border);
+  color: var(--text-muted);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-normal);
+  user-select: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.checkbox-pill-label:hover {
+  background: rgba(16, 185, 129, 0.05);
+  color: var(--primary-hover);
+  border-color: rgba(16, 185, 129, 0.35);
+}
+
+.checkbox-pill-input:checked + .checkbox-pill-label {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.25);
+  font-weight: 700;
+}
+
+/* 地圖點位縮放氣泡標籤 (L.tooltip) */
+.map-marker-tooltip {
+  background-color: rgba(255, 255, 255, 0.96) !important;
+  border: 1.5px solid var(--primary) !important;
+  border-radius: 6px !important;
+  color: var(--text-highlight) !important;
+  font-family: var(--font-body);
+  font-weight: 800 !important;
+  font-size: 0.72rem !important;
+  padding: 3px 8px !important;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1) !important;
+  white-space: nowrap !important;
+  pointer-events: none !important;
+  opacity: 0;
+  display: none !important;
+  transition: opacity 0.2s ease;
+}
+
+/* 僅當地圖放大 (Zoom Level >= 14) 且容器有 .map-zoomed-in 類別時才顯示氣泡 */
+.map-zoomed-in .map-marker-tooltip {
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* Leaflet tooltip 小箭頭調整 */
+.leaflet-tooltip-top:before {
+  border-top-color: var(--primary) !important;
+}
+
+/* 針對複選排版微調，搜尋區塊內 padding */
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

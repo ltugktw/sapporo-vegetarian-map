@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>札幌素食與純素餐廳地圖 | 2026 最新版互動式離線旅遊導覽</title>
-  <meta name="description" content="專為前往北海道札幌旅遊的素食者設計的互動式地圖網頁。精選 100 家優質拉麵、湯咖哩、精緻料理及甜點烘焙店，整合 Leaflet.js 互動地圖與瀏覽器 GPS 定位功能，即時標記店家位置並動態計算距離，支援 PWA 離線瀏覽！">
-  <meta name="keywords" content="札幌素食, 札幌純素, 札幌蔬食, 札幌拉麵素食, 札幌湯咖哩素食, 日本素食地圖, 札幌 vegan, 札幌 vegetarian, 札幌素食地圖">
+  <title>北海道素食與純素餐廳地圖 | 2026 最新版離線旅遊導覽</title>
+  <meta name="description" content="專為前往北海道旅遊的素食者設計的互動式地圖網頁。精選札幌、小樽、富良野、美瑛、旭川共 140 家優質拉麵、湯咖哩、精緻料理及甜點烘焙店，整合 Leaflet.js 互動地圖與瀏覽器 GPS 定位功能，即時標記店家位置並動態計算距離，支援 PWA 離線瀏覽！">
+  <meta name="keywords" content="北海道素食, 札幌素食, 小樽素食, 富良野素食, 美瑛素食, 旭川素食, 日本素食地圖, 北海道 vegan, 札幌 vegan, 札幌 vegetarian, 札幌素食地圖">
   <meta name="theme-color" content="#10b981">
   
   <!-- SEO Open Graph 標記 -->
-  <meta property="og:title" content="札幌素食與純素餐廳地圖 | 互動式離線旅遊導覽">
-  <meta property="og:description" content="精選 100 家優質素食與友善餐廳，整合 Leaflet 地圖與 GPS 即時定位，支援 PWA 離線瀏覽，讓您在北海道旅行中吃得安心又方便！">
+  <meta property="og:title" content="北海道素食與純素餐廳地圖 | 互動式離線旅遊導覽">
+  <meta property="og:description" content="精選札幌、小樽、富良野、美瑛、旭川共 140 家優質素食與友善餐廳，整合 Leaflet 地圖與 GPS 即時定位，支援 PWA 離線瀏覽，讓您在北海道旅行中吃得安心又方便！">
   <meta property="og:type" content="website">
   
   <!-- PWA Manifest -->
@@ -35,9 +35,9 @@
           <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 1.2 5 0 9A10 10 0 0 1 11 20z" />
           <path d="M19 2c-2.26 4.33-5.27 7.14-8 10" />
         </svg>
-        <h1 id="app-title">札幌素食地圖</h1>
+        <h1 id="app-title">北海道素食地圖</h1>
       </div>
-      <p class="tagline">精選札幌 100 家蔬食 & 友善餐廳，結合 GPS 定位與地圖聯動，讓您在旅行中隨時隨地搜尋身邊的美食。</p>
+      <p class="tagline">精選札幌、小樽、富良野、美瑛、旭川共 140 家蔬食 & 友善餐廳，結合 GPS 定位與地圖聯動，讓您在旅行中隨時隨地搜尋身邊的美食。</p>
       <span class="version-badge">📅 2026 最新版 • 整合 GPS 與離線地圖</span>
     </header>
 
@@ -51,13 +51,55 @@
         </svg>
       </div>
       
-      <!-- 分類標籤頁面 -->
-      <div class="tabs-container" role="tablist">
-        <button class="tab-btn active" role="tab" aria-selected="true" data-filter="all" id="tab-all">顯示全部</button>
-        <button class="tab-btn" role="tab" aria-selected="false" data-filter="ramen" id="tab-ramen">🍜 日式拉麵</button>
-        <button class="tab-btn" role="tab" aria-selected="false" data-filter="soupcurry" id="tab-soupcurry">🍛 特色湯咖哩</button>
-        <button class="tab-btn" role="tab" aria-selected="false" data-filter="bistro" id="tab-bistro">🥗 精緻異國/食養</button>
-        <button class="tab-btn" role="tab" aria-selected="false" data-filter="bakery" id="tab-bakery">🍰 甜點與烘焙</button>
+      <!-- 📍 地區複選過濾器 (Pills 樣式，可多選) -->
+      <div class="filter-group">
+        <span class="filter-label">📍 選擇地區 (可多選)：</span>
+        <div class="checkbox-pill-group" id="region-filter-group">
+          <input type="checkbox" id="reg-sapporo" class="checkbox-pill-input" value="sapporo" checked>
+          <label for="reg-sapporo" class="checkbox-pill-label">札幌 (Sapporo)</label>
+          
+          <input type="checkbox" id="reg-otaru" class="checkbox-pill-input" value="otaru" checked>
+          <label for="reg-otaru" class="checkbox-pill-label">小樽 (Otaru)</label>
+          
+          <input type="checkbox" id="reg-furano" class="checkbox-pill-input" value="furano" checked>
+          <label for="reg-furano" class="checkbox-pill-label">富良野 (Furano)</label>
+          
+          <input type="checkbox" id="reg-biei" class="checkbox-pill-input" value="biei" checked>
+          <label for="reg-biei" class="checkbox-pill-label">美瑛 (Biei)</label>
+          
+          <input type="checkbox" id="reg-asahikawa" class="checkbox-pill-input" value="asahikawa" checked>
+          <label for="reg-asahikawa" class="checkbox-pill-label">旭川 (Asahikawa)</label>
+        </div>
+      </div>
+
+      <!-- 🍽️ 種類複選過濾器 (Pills 樣式，可多選) -->
+      <div class="filter-group">
+        <span class="filter-label">🍽️ 餐廳種類 (可多選)：</span>
+        <div class="checkbox-pill-group" id="category-filter-group">
+          <input type="checkbox" id="cat-ramen" class="checkbox-pill-input" value="ramen" checked>
+          <label for="cat-ramen" class="checkbox-pill-label">🍜 日式拉麵</label>
+          
+          <input type="checkbox" id="cat-soupcurry" class="checkbox-pill-input" value="soupcurry" checked>
+          <label for="cat-soupcurry" class="checkbox-pill-label">🍛 特色湯咖哩</label>
+          
+          <input type="checkbox" id="cat-bistro" class="checkbox-pill-input" value="bistro" checked>
+          <label for="cat-bistro" class="checkbox-pill-label">🥗 精緻異國/食養</label>
+          
+          <input type="checkbox" id="cat-bakery" class="checkbox-pill-input" value="bakery" checked>
+          <label for="cat-bakery" class="checkbox-pill-label">🍰 甜點與烘焙</label>
+        </div>
+      </div>
+
+      <!-- 🌱 素食類型複選過濾器 (Pills 樣式，可多選) -->
+      <div class="filter-group">
+        <span class="filter-label">🌱 素食分類 (可多選)：</span>
+        <div class="checkbox-pill-group" id="veg-filter-group">
+          <input type="checkbox" id="veg-pure" class="checkbox-pill-input" value="pure-vegan" checked>
+          <label for="veg-pure" class="checkbox-pill-label">🟢 100% 純素 (無肉無蛋奶)</label>
+          
+          <input type="checkbox" id="veg-friendly" class="checkbox-pill-input" value="vegan-friendly" checked>
+          <label for="veg-friendly" class="checkbox-pill-label">🟡 素食友善 (提供蔬食選項)</label>
+        </div>
       </div>
 
       <!-- 🕒 營業狀態過濾選項 (顯示全部/僅顯示營業中) -->

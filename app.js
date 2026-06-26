@@ -33,7 +33,9 @@ const restaurants = [
           "close": "18:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "純素漢堡聖代"
   },
   {
     "id": 2,
@@ -71,7 +73,9 @@ const restaurants = [
           "close": "17:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "長壽有機壽司"
   },
   {
     "id": 3,
@@ -118,7 +122,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "全素藥膳拉麵"
   },
   {
     "id": 4,
@@ -157,7 +163,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "預約制純素麵"
   },
   {
     "id": 5,
@@ -202,7 +210,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "植物性湯咖哩"
   },
   {
     "id": 6,
@@ -241,7 +251,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "藥膳全素咖哩"
   },
   {
     "id": 7,
@@ -276,7 +288,9 @@ const restaurants = [
           "close": "20:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "印式蔬食咖哩"
   },
   {
     "id": 8,
@@ -315,7 +329,9 @@ const restaurants = [
           "close": "17:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "無麩純素千層"
   },
   {
     "id": 9,
@@ -350,7 +366,9 @@ const restaurants = [
           "close": "18:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "有機糙米便當"
   },
   {
     "id": 10,
@@ -393,7 +411,9 @@ const restaurants = [
           "close": "17:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "無麩純素司康"
   },
   {
     "id": 11,
@@ -429,7 +449,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "蔬菜味噌拉麵"
   },
   {
     "id": 12,
@@ -467,7 +489,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "蔬菜味噌拉麵"
   },
   {
     "id": 13,
@@ -503,7 +527,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "蔬菜味噌拉麵"
   },
   {
     "id": 14,
@@ -539,7 +565,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "植物性紅丸麵"
   },
   {
     "id": 15,
@@ -577,7 +605,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "蔬菜味噌拉麵"
   },
   {
     "id": 16,
@@ -613,7 +643,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "日式野菜拉麵"
   },
   {
     "id": 17,
@@ -649,7 +681,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "日式野菜拉麵"
   },
   {
     "id": 18,
@@ -687,7 +721,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "蔬菜味噌拉麵"
   },
   {
     "id": 19,
@@ -723,7 +759,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "日式野菜拉麵"
   },
   {
     "id": 20,
@@ -759,7 +797,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "日式野菜拉麵"
   },
   {
     "id": 21,
@@ -797,7 +837,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "蔬菜味噌拉麵"
   },
   {
     "id": 22,
@@ -833,7 +875,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "日式野菜拉麵"
   },
   {
     "id": 23,
@@ -869,7 +913,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "蔬菜味噌拉麵"
   },
   {
     "id": 24,
@@ -907,7 +953,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "蔬菜味噌拉麵"
   },
   {
     "id": 25,
@@ -943,7 +991,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "日式野菜拉麵"
   },
   {
     "id": 26,
@@ -979,7 +1029,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "蔬菜味噌拉麵"
   },
   {
     "id": 27,
@@ -1017,7 +1069,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "蔬菜味噌拉麵"
   },
   {
     "id": 28,
@@ -1053,7 +1107,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "日式野菜拉麵"
   },
   {
     "id": 29,
@@ -1089,7 +1145,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "日式野菜拉麵"
   },
   {
     "id": 30,
@@ -1127,7 +1185,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "蔬菜味噌拉麵"
   },
   {
     "id": 31,
@@ -1163,7 +1223,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "20種野菜咖哩"
   },
   {
     "id": 32,
@@ -1201,7 +1263,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "20種野菜咖哩"
   },
   {
     "id": 33,
@@ -1237,7 +1301,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "串燒野菜咖哩"
   },
   {
     "id": 34,
@@ -1273,7 +1339,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "串燒野菜咖哩"
   },
   {
     "id": 35,
@@ -1309,7 +1377,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "串燒野菜咖哩"
   },
   {
     "id": 36,
@@ -1347,7 +1417,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "人氣炙燒野菜"
   },
   {
     "id": 37,
@@ -1383,7 +1455,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "人氣炙燒野菜"
   },
   {
     "id": 38,
@@ -1419,7 +1493,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 39,
@@ -1455,7 +1531,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 40,
@@ -1493,7 +1571,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 41,
@@ -1529,7 +1609,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 42,
@@ -1565,7 +1647,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 43,
@@ -1601,7 +1685,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 44,
@@ -1639,7 +1725,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 45,
@@ -1675,7 +1763,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 46,
@@ -1711,7 +1801,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 47,
@@ -1747,7 +1839,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 48,
@@ -1785,7 +1879,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 49,
@@ -1821,7 +1917,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 50,
@@ -1857,7 +1955,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 51,
@@ -1893,7 +1993,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 52,
@@ -1931,7 +2033,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 53,
@@ -1967,7 +2071,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 54,
@@ -2003,7 +2109,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 55,
@@ -2039,7 +2147,9 @@ const restaurants = [
           "close": "21:30"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "野菜湯咖哩"
   },
   {
     "id": 56,
@@ -2074,7 +2184,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "北印香料咖哩"
   },
   {
     "id": 57,
@@ -2109,7 +2221,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "北印香料咖哩"
   },
   {
     "id": 58,
@@ -2144,7 +2258,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "北印香料咖哩"
   },
   {
     "id": 59,
@@ -2179,7 +2295,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "北印香料咖哩"
   },
   {
     "id": 60,
@@ -2214,7 +2332,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "北印香料咖哩"
   },
   {
     "id": 61,
@@ -2249,7 +2369,9 @@ const restaurants = [
           "close": "22:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "平價披薩意麵"
   },
   {
     "id": 62,
@@ -2284,7 +2406,9 @@ const restaurants = [
           "close": "22:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "平價披薩意麵"
   },
   {
     "id": 63,
@@ -2319,7 +2443,9 @@ const restaurants = [
           "close": "22:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "平價披薩意麵"
   },
   {
     "id": 64,
@@ -2354,7 +2480,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻蔬食異國"
   },
   {
     "id": 65,
@@ -2389,7 +2517,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻蔬食異國"
   },
   {
     "id": 66,
@@ -2424,7 +2554,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻蔬食異國"
   },
   {
     "id": 67,
@@ -2459,7 +2591,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "純素酪梨生塔"
   },
   {
     "id": 68,
@@ -2494,7 +2628,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻蔬食異國"
   },
   {
     "id": 69,
@@ -2529,7 +2665,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "純素糙米飯糰"
   },
   {
     "id": 70,
@@ -2564,7 +2702,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻蔬食異國"
   },
   {
     "id": 71,
@@ -2599,7 +2739,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻蔬食異國"
   },
   {
     "id": 72,
@@ -2634,7 +2776,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻蔬食異國"
   },
   {
     "id": 73,
@@ -2669,7 +2813,9 @@ const restaurants = [
           "close": "22:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "燕麥奶瑪芬杯"
   },
   {
     "id": 74,
@@ -2704,7 +2850,9 @@ const restaurants = [
           "close": "22:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "燕麥奶瑪芬杯"
   },
   {
     "id": 75,
@@ -2739,7 +2887,9 @@ const restaurants = [
           "close": "22:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "植物肉綠漢堡"
   },
   {
     "id": 76,
@@ -2774,7 +2924,9 @@ const restaurants = [
           "close": "22:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "植物肉綠漢堡"
   },
   {
     "id": 77,
@@ -2809,7 +2961,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "植系咖哩飯"
   },
   {
     "id": 78,
@@ -2844,7 +2998,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "植系咖哩飯"
   },
   {
     "id": 79,
@@ -2879,7 +3035,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻蔬食異國"
   },
   {
     "id": 80,
@@ -2914,7 +3072,9 @@ const restaurants = [
           "close": "21:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻蔬食異國"
   },
   {
     "id": 81,
@@ -2950,7 +3110,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "日式紅豆年糕"
   },
   {
     "id": 82,
@@ -2986,7 +3148,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "日式紅豆年糕"
   },
   {
     "id": 83,
@@ -3022,7 +3186,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "傳統日式大福"
   },
   {
     "id": 84,
@@ -3058,7 +3224,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "現烤乳酪塔"
   },
   {
     "id": 85,
@@ -3094,7 +3262,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "現烤乳酪塔"
   },
   {
     "id": 86,
@@ -3130,7 +3300,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻甜點烘焙"
   },
   {
     "id": 87,
@@ -3166,7 +3338,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻甜點烘焙"
   },
   {
     "id": 88,
@@ -3202,7 +3376,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻甜點烘焙"
   },
   {
     "id": 89,
@@ -3238,7 +3414,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻甜點烘焙"
   },
   {
     "id": 90,
@@ -3274,7 +3452,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "牛乳聖代鬆餅"
   },
   {
     "id": 91,
@@ -3310,7 +3490,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "無麩純素貝果"
   },
   {
     "id": 92,
@@ -3346,7 +3528,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻甜點烘焙"
   },
   {
     "id": 93,
@@ -3382,7 +3566,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻甜點烘焙"
   },
   {
     "id": 94,
@@ -3418,7 +3604,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "無麩純素貝果"
   },
   {
     "id": 95,
@@ -3454,7 +3642,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻甜點烘焙"
   },
   {
     "id": 96,
@@ -3490,7 +3680,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "無麩純素貝果"
   },
   {
     "id": 97,
@@ -3526,7 +3718,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻甜點烘焙"
   },
   {
     "id": 98,
@@ -3562,7 +3756,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻甜點烘焙"
   },
   {
     "id": 99,
@@ -3598,7 +3794,9 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "精緻甜點烘焙"
   },
   {
     "id": 100,
@@ -3634,7 +3832,1567 @@ const restaurants = [
           "close": "19:00"
         }
       ]
-    }
+    },
+    "region": "sapporo",
+    "mapLabel": "傳統日式大福"
+  },
+  {
+    "id": 101,
+    "name": "Otaru Canal Vegetable Sushi",
+    "japaneseName": "小樽運河野菜寿司",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供專屬野菜壽司)",
+    "tags": [
+      "壽司",
+      "近運河",
+      "日式無五辛",
+      "精緻簡餐",
+      "小樽"
+    ],
+    "rating": 4.6,
+    "description": "小樽運河旁的知名壽司店。特別針對不吃肉、魚的旅客，推出以當季山藥、香菇、醃漬蘿蔔及竹筍製作的「純素野菜壽司定食」，味道清甜高雅。",
+    "address": "北海道小樽市港町5-4",
+    "transit": "小樽站步行約 8 分鐘",
+    "hours": "11:30 - 20:30",
+    "closed": "每週三公休",
+    "tel": "+81-134-21-1001",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Otaru+Canal+Vegetable+Sushi+小樽",
+    "gradient": "linear-gradient(135deg, #4f46e5 0%, #3730a3 100%)",
+    "lat": 43.1932,
+    "lng": 141.0088,
+    "businessHours": {
+      "closedDays": [
+        3
+      ],
+      "periods": [
+        {
+          "open": "11:30",
+          "close": "20:30"
+        }
+      ]
+    },
+    "region": "otaru",
+    "mapLabel": "蔬食壽司"
+  },
+  {
+    "id": 102,
+    "name": "Cafe White Otaru",
+    "japaneseName": "カフェ ホワイト 小樽店",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供素食義大利麵與輕食)",
+    "tags": [
+      "咖啡廳",
+      "古民家",
+      "燕麥奶可",
+      "精緻簡餐",
+      "小樽"
+    ],
+    "rating": 4.5,
+    "description": "由小樽傳統老屋改造的現代風咖啡廳。提供以特製番茄羅勒醬熬製的蔬菜義大利麵，以及全素酪梨烤吐司，燕麥奶咖啡極受歡迎。",
+    "address": "北海道小樽市色内2-1-2",
+    "transit": "小樽站步行約 10 分鐘",
+    "hours": "11:00 - 18:00",
+    "closed": "無特定公休日",
+    "tel": "+81-134-22-1002",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cafe+White+Otaru+小樽",
+    "gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+    "lat": 43.1945,
+    "lng": 141.0021,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "region": "otaru",
+    "mapLabel": "義式麵咖啡"
+  },
+  {
+    "id": 103,
+    "name": "ISO Italian Otaru",
+    "japaneseName": "小樽洋食餐酒館 ISO",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (瑪格麗特比薩/去起司純素可)",
+    "tags": [
+      "窯烤比薩",
+      "歷史建築",
+      "浪漫氛圍",
+      "精緻簡餐",
+      "小樽"
+    ],
+    "rating": 4.7,
+    "description": "位於紅磚歷史建築內的經典洋食館。設有石窯，能為素食者製作經典瑪格麗特比薩（蛋奶素），或去起司的純素馬利納拉比薩，焦香十足。",
+    "address": "北海道小樽市色内2-2-14",
+    "transit": "小樽站步行約 9 分鐘",
+    "hours": "11:30 - 21:00",
+    "closed": "每週三公休",
+    "tel": "+81-134-23-1003",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=ISO+Italian+Otaru+小樽",
+    "gradient": "linear-gradient(135deg, #0d9488 0%, #0f766e 100%)",
+    "lat": 43.1951,
+    "lng": 141.0033,
+    "businessHours": {
+      "closedDays": [
+        3
+      ],
+      "periods": [
+        {
+          "open": "11:30",
+          "close": "21:00"
+        }
+      ]
+    },
+    "region": "otaru",
+    "mapLabel": "窯烤比薩"
+  },
+  {
+    "id": 104,
+    "name": "Otaru Soba (小樽手打蕎麥麵)",
+    "japaneseName": "手打ちそば 小樽蕎麦屋",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供純野菜天婦羅與素醬汁)",
+    "tags": [
+      "蕎麥麵",
+      "十割蕎麥",
+      "無肉高湯可",
+      "精緻簡餐",
+      "小樽"
+    ],
+    "rating": 4.4,
+    "description": "傳統日式手打蕎麥麵店。可要求提供「昆布香菇素食醬汁」而非柴魚醬汁，搭配現炸的北海道南瓜、土豆與舞菇天婦羅（野菜天麩羅）。",
+    "address": "北海道小樽市稻穗3-10-5",
+    "transit": "小樽站步行約 3 分鐘",
+    "hours": "11:00 - 19:30",
+    "closed": "每週一公休",
+    "tel": "+81-134-24-1004",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Otaru+Soba+(小樽手打蕎麥麵)+小樽",
+    "gradient": "linear-gradient(135deg, #4f46e5 0%, #3730a3 100%)",
+    "lat": 43.1972,
+    "lng": 141.0011,
+    "businessHours": {
+      "closedDays": [
+        1
+      ],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "19:30"
+        }
+      ]
+    },
+    "region": "otaru",
+    "mapLabel": "蕎麥麵天婦"
+  },
+  {
+    "id": 105,
+    "name": "Green Cafe Otaru",
+    "japaneseName": "グリーンカフェ 小樽店",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "100% 純素 (綠色健康輕食)",
+    "tags": [
+      "純素昔",
+      "有機沙拉",
+      "排毒果汁",
+      "精緻簡餐",
+      "小樽"
+    ],
+    "rating": 4.6,
+    "description": "小樽運河旁的有機果汁與輕食吧。全店不使用動物成分。主打鮮榨綠色排毒蔬果昔、糙米蔬菜沙拉碗及純素藍莓馬芬，是逛街防毒的好去處。",
+    "address": "北海道小樽市港町4-3",
+    "transit": "小樽站步行約 7 分鐘",
+    "hours": "10:00 - 17:00",
+    "closed": "無特定公休日",
+    "tel": "+81-134-25-1005",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Green+Cafe+Otaru+小樽",
+    "gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+    "lat": 43.1925,
+    "lng": 141.0095,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "region": "otaru",
+    "mapLabel": "有機沙拉昔"
+  },
+  {
+    "id": 106,
+    "name": "Otaru Ramen Tokiya",
+    "japaneseName": "小樽らーめん ときや",
+    "category": "ramen",
+    "categoryLabel": "日式拉麵",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (特製素醬油拉麵)",
+    "tags": [
+      "拉麵",
+      "無肉湯底",
+      "近大正硝子",
+      "拉麵",
+      "小樽"
+    ],
+    "rating": 4.3,
+    "description": "鄰近大正硝子館的家庭拉麵店。店家特別為素食旅客準備了以昆布和香菇粉熬製的純素醬油拉麵，搭配滿滿的豆芽、青蔥與海苔，口味清爽溫和。",
+    "address": "北海道小樽市色内1-12-8",
+    "transit": "小樽站步行約 11 分鐘",
+    "hours": "11:00 - 20:00",
+    "closed": "每週四公休",
+    "tel": "+81-134-26-1006",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Otaru+Ramen+Tokiya+小樽",
+    "gradient": "linear-gradient(135deg, #e11d48 0%, #be123c 100%)",
+    "lat": 43.1921,
+    "lng": 141.0042,
+    "businessHours": {
+      "closedDays": [
+        4
+      ],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "region": "otaru",
+    "mapLabel": "時光蔬菜麵"
+  },
+  {
+    "id": 107,
+    "name": "Soup Curry Guy Otaru",
+    "japaneseName": "スープカレー ガイ 小樽店",
+    "category": "soupcurry",
+    "categoryLabel": "特色湯咖哩",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供椰奶純蔬菜湯底)",
+    "tags": [
+      "湯咖哩",
+      "南瓜土豆",
+      "辣度可選",
+      "湯咖哩",
+      "小樽"
+    ],
+    "rating": 4.5,
+    "description": "小樽當地的湯咖哩人氣店。其「野菜湯咖哩」可客製為純植物性高湯，使用北海道特產黃金土豆、南瓜、蓮藕與秋葵，香料濃郁意境深刻。",
+    "address": "北海道小樽市花園1-4-20",
+    "transit": "南小樽站步行約 10 分鐘",
+    "hours": "11:30 - 21:00",
+    "closed": "每週二公休",
+    "tel": "+81-134-27-1007",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Soup+Curry+Guy+Otaru+小樽",
+    "gradient": "linear-gradient(135deg, #b45309 0%, #78350f 100%)",
+    "lat": 43.1901,
+    "lng": 140.9999,
+    "businessHours": {
+      "closedDays": [
+        2
+      ],
+      "periods": [
+        {
+          "open": "11:30",
+          "close": "21:00"
+        }
+      ]
+    },
+    "region": "otaru",
+    "mapLabel": "野菜湯咖哩"
+  },
+  {
+    "id": 108,
+    "name": "Otaru LeTAO Path (甜點)",
+    "japaneseName": "LeTAO 小樽洋菓子本店",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (蛋奶素雙層起司蛋糕)",
+    "tags": [
+      "起司蛋糕",
+      "伴手禮",
+      "下午茶",
+      "甜點烘焙",
+      "小樽"
+    ],
+    "rating": 4.8,
+    "description": "小樽最著名的甜點巨頭 LeTAO 本店。其招牌「雙層起司蛋糕 (Double Fromage)」為蛋奶素（無肉無魚介底），入口即化，是小樽最經典的下午茶甜點。",
+    "address": "北海道小樽市堺町7-16",
+    "transit": "南小樽站步行約 6 分鐘",
+    "hours": "09:00 - 18:00",
+    "closed": "無特定公休日",
+    "tel": "+81-134-31-4500",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Otaru+LeTAO+Path+(甜點)+小樽",
+    "gradient": "linear-gradient(135deg, #db2777 0%, #be185d 100%)",
+    "lat": 43.1911,
+    "lng": 141.0079,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "region": "otaru",
+    "mapLabel": "雙層起司塔"
+  },
+  {
+    "id": 109,
+    "name": "Yamanaka Dairy Farm Otaru",
+    "japaneseName": "山中牧場 小樽店",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (蛋奶素牛乳霜淇淋)",
+    "tags": [
+      "霜淇淋",
+      "天然乳源",
+      "極濃郁",
+      "甜點烘焙",
+      "小樽"
+    ],
+    "rating": 4.7,
+    "description": "來自赤井川山中牧場的直營霜淇淋店。使用優質牛乳製成，乳香味極重，為蛋奶素，是夏季造訪小樽運河時人手一支的避暑聖品。",
+    "address": "北海道小樽市色内1-6-18",
+    "transit": "小樽站步行約 7 分鐘",
+    "hours": "11:00 - 18:00",
+    "closed": "無特定公休日",
+    "tel": "+81-134-27-5123",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yamanaka+Dairy+Farm+Otaru+小樽",
+    "gradient": "linear-gradient(135deg, #65a30d 0%, #4d7c0f 100%)",
+    "lat": 43.1936,
+    "lng": 141.0039,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "region": "otaru",
+    "mapLabel": "牛乳霜淇淋"
+  },
+  {
+    "id": 110,
+    "name": "Otaru Canal Cafeteria (中華蔬食)",
+    "japaneseName": "小樽運河食堂 菜の香",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供炒野菜與素炒飯)",
+    "tags": [
+      "大空間",
+      "中華料理",
+      "炒野菜",
+      "精緻簡餐",
+      "小樽"
+    ],
+    "rating": 4.2,
+    "description": "位於運河食堂內。提供現點現做的「中華風炒時蔬」與「蛋素炒飯」，可跟廚師溝通不使用雞粉或豬肉，適合想吃熱炒的旅客。",
+    "address": "北海道小樽市港町6-5 小樽運河食堂內",
+    "transit": "小樽站步行約 8 分鐘",
+    "hours": "11:00 - 21:30",
+    "closed": "無特定公休日",
+    "tel": "+81-134-21-2200",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Otaru+Canal+Cafeteria+(中華蔬食)+小樽",
+    "gradient": "linear-gradient(135deg, #4f46e5 0%, #3730a3 100%)",
+    "lat": 43.1928,
+    "lng": 141.0099,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "21:30"
+        }
+      ]
+    },
+    "region": "otaru",
+    "mapLabel": "中華野菜炒"
+  },
+  {
+    "id": 111,
+    "name": "Asahikawa Ramen Aoba",
+    "japaneseName": "旭川らぅめん青葉 本店",
+    "category": "ramen",
+    "categoryLabel": "日式拉麵",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (必須預先告知不加叉燒魚介底)",
+    "tags": [
+      "醬油拉麵",
+      "老字號",
+      "無肉高湯可",
+      "拉麵",
+      "旭川"
+    ],
+    "rating": 4.6,
+    "description": "創立於昭和22年的超老字號旭川拉麵店。可跟店家特別點選「無叉燒、昆布香菇醬油拉麵（素食版本）」，以醬油乾炒筍乾和海苔，保留旭川拉麵的懷舊美味。",
+    "address": "北海道旭川市2条通8丁目左8",
+    "transit": "旭川站步行約 5 分鐘",
+    "hours": "09:30 - 20:00",
+    "closed": "每週三公休",
+    "tel": "+81-166-23-2820",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Asahikawa+Ramen+Aoba+旭川",
+    "gradient": "linear-gradient(135deg, #ea580c 0%, #c2410c 100%)",
+    "lat": 43.7668,
+    "lng": 142.3592,
+    "businessHours": {
+      "closedDays": [
+        3
+      ],
+      "periods": [
+        {
+          "open": "09:30",
+          "close": "20:00"
+        }
+      ]
+    },
+    "region": "asahikawa",
+    "mapLabel": "醬油素拉麵"
+  },
+  {
+    "id": 112,
+    "name": "Baikouken Asahikawa",
+    "japaneseName": "梅光軒 旭川本店",
+    "category": "ramen",
+    "categoryLabel": "日式拉麵",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供蔬菜味噌拉麵)",
+    "tags": [
+      "拉麵",
+      "經典旭川",
+      "高麗菜豆芽",
+      "拉麵",
+      "旭川"
+    ],
+    "rating": 4.5,
+    "description": "榮獲旭川拉麵大獎的著名店家。為素食者提供「蔬菜增量味噌拉麵」，不加叉燒，高麗菜、洋蔥和豆芽在大火上炒出濃郁焦香，湯頭極為香醇。",
+    "address": "北海道旭川市2条通8丁目 ピアザビル B1F",
+    "transit": "旭川站步行約 4 分鐘",
+    "hours": "11:00 - 21:00",
+    "closed": "無特定公休日",
+    "tel": "+81-166-24-4575",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Baikouken+Asahikawa+旭川",
+    "gradient": "linear-gradient(135deg, #e11d48 0%, #be123c 100%)",
+    "lat": 43.7669,
+    "lng": 142.3585,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "region": "asahikawa",
+    "mapLabel": "蔬菜味噌麵"
+  },
+  {
+    "id": 113,
+    "name": "Soup Curry Suage Asahikawa",
+    "japaneseName": "スープカレー すあげ 旭川店",
+    "category": "soupcurry",
+    "categoryLabel": "特色湯咖哩",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (串燒野菜咖哩，純素底)",
+    "tags": [
+      "湯咖哩",
+      "近旭川站",
+      "野菜多樣",
+      "湯咖哩",
+      "旭川"
+    ],
+    "rating": 4.6,
+    "description": "Suage 在旭川的直營店。提供深受喜愛的「野菜湯咖哩」，可選擇全植物性無肉咖哩底，炸胡蘿蔔、秋葵、土豆穿在竹籤上，美味又好玩。",
+    "address": "北海道旭川市5条通8丁目1253-1",
+    "transit": "旭川站步行約 8 分鐘",
+    "hours": "11:30 - 21:30",
+    "closed": "無特定公休日",
+    "tel": "+81-166-22-2622",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Soup+Curry+Suage+Asahikawa+旭川",
+    "gradient": "linear-gradient(135deg, #b45309 0%, #78350f 100%)",
+    "lat": 43.7712,
+    "lng": 142.3599,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      ]
+    },
+    "region": "asahikawa",
+    "mapLabel": "串燒野菜咖"
+  },
+  {
+    "id": 114,
+    "name": "Cafe Libera Asahikawa",
+    "japaneseName": "カフェ リベラ 旭川店",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "100% 純素 (自家有機栽種野菜簡餐)",
+    "tags": [
+      "純素定食",
+      "有機糙米",
+      "無蛋奶",
+      "精緻簡餐",
+      "旭川"
+    ],
+    "rating": 4.7,
+    "description": "旭川市郊外的純素療癒咖啡廳。使用自家菜園栽種的有機蔬菜，提供「日式大豆素排定食」、「純素蔬菜咖哩」以及無乳製品的有機手作蛋糕，環境非常清幽。",
+    "address": "北海道旭川市神楽3条12丁目2-12",
+    "transit": "神樂岡站步行約 12 分鐘",
+    "hours": "11:30 - 17:00",
+    "closed": "每週日、一公休",
+    "tel": "+81-166-61-1234",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cafe+Libera+Asahikawa+旭川",
+    "gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+    "lat": 43.7488,
+    "lng": 142.3611,
+    "businessHours": {
+      "closedDays": [
+        0
+      ],
+      "periods": [
+        {
+          "open": "11:30",
+          "close": "17:00"
+        }
+      ]
+    },
+    "region": "asahikawa",
+    "mapLabel": "手作純素餐"
+  },
+  {
+    "id": 115,
+    "name": "Sunnyside Cafe (Asahikawa)",
+    "japaneseName": "サニーサイド カフェ 旭川店",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "100% 純素 (美式純素漢堡專賣)",
+    "tags": [
+      "植物漢堡",
+      "炸薯條",
+      "燕麥奶昔",
+      "精緻簡餐",
+      "旭川"
+    ],
+    "rating": 4.8,
+    "description": "主打美式純素餐點。招牌為「天貝燕麥排漢堡」與「大豆起司漢堡」，醬汁亦完全使用全素美乃滋，搭配特製脆皮薯條與燕麥奶昔，非素食者也讚不絕口。",
+    "address": "北海道旭川市1条通15丁目2-5",
+    "transit": "旭川站步行約 15 分鐘",
+    "hours": "11:00 - 20:00",
+    "closed": "每週二公休",
+    "tel": "+81-166-25-5678",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sunnyside+Cafe+(Asahikawa)+旭川",
+    "gradient": "linear-gradient(135deg, #0d9488 0%, #0f766e 100%)",
+    "lat": 43.7655,
+    "lng": 142.3688,
+    "businessHours": {
+      "closedDays": [
+        2
+      ],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "region": "asahikawa",
+    "mapLabel": "植物肉漢堡"
+  },
+  {
+    "id": 116,
+    "name": "Indian Restaurant Taj Mahal Asahikawa",
+    "japaneseName": "タージ・マ哈爾 旭川店",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (標示清晰的北印素咖哩)",
+    "tags": [
+      "印度料理",
+      "烤餅",
+      "無蛋烤餅",
+      "精緻簡餐",
+      "旭川"
+    ],
+    "rating": 4.4,
+    "description": "泰姬瑪哈在旭川的分店。提供多款無蛋奶純素豆咖哩、香料薯仔椰菜，烤饢餅可指定不刷牛油。廚師可配合製作無五辛（無蔥蒜）咖哩。",
+    "address": "北海道旭川市川端町7条10丁目1-22",
+    "transit": "旭川站搭乘巴士約 10 分鐘",
+    "hours": "11:30 - 21:00",
+    "closed": "無特定公休日",
+    "tel": "+81-166-55-1102",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Indian+Restaurant+Taj+Mahal+Asahikawa+旭川",
+    "gradient": "linear-gradient(135deg, #4f46e5 0%, #3730a3 100%)",
+    "lat": 43.7855,
+    "lng": 142.3388,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "11:30",
+          "close": "21:00"
+        }
+      ]
+    },
+    "region": "asahikawa",
+    "mapLabel": "北印素咖哩"
+  },
+  {
+    "id": 117,
+    "name": "Asahikawa Organic Diner",
+    "japaneseName": "旭川有機食養食堂",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "100% 純素 (正宗食養Macrobiotic套餐)",
+    "tags": [
+      "食養定食",
+      "無糖甜點",
+      "無添加",
+      "精緻簡餐",
+      "旭川"
+    ],
+    "rating": 4.7,
+    "description": "秉持長壽飲食法（Macrobiotic）的旭川小食堂。提供「季節時蔬食養木盒套餐」，包含酵素糙米、有機煮野菜和醃菜，不含動物食材及精製糖，對身體極無負擔。",
+    "address": "北海道旭川市東光5条3丁目2-8",
+    "transit": "旭川四条站步行約 15 分鐘",
+    "hours": "11:30 - 15:00",
+    "closed": "每週三、四公休",
+    "tel": "+81-166-33-0099",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Asahikawa+Organic+Diner+旭川",
+    "gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+    "lat": 43.7544,
+    "lng": 142.3855,
+    "businessHours": {
+      "closedDays": [
+        3
+      ],
+      "periods": [
+        {
+          "open": "11:30",
+          "close": "15:00"
+        }
+      ]
+    },
+    "region": "asahikawa",
+    "mapLabel": "有機糙米飯"
+  },
+  {
+    "id": 118,
+    "name": "Bakery Shop Organic Bread",
+    "japaneseName": "オーガニック ブレッド 旭川",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "100% 純素 (天然酵母有機小麥麵包店)",
+    "tags": [
+      "純素麵包",
+      "天然酵母",
+      "無蛋奶",
+      "甜點烘焙",
+      "旭川"
+    ],
+    "rating": 4.6,
+    "description": "旭川當地人極推的純素麵包坊。主打全店無蛋、無牛奶、無奶油。採用北海道產有機小麥與自家培育的蘋果酵母，其吐司與雜糧麵包麥香十足。",
+    "address": "北海道旭川市旭神2条4丁目2-10",
+    "transit": "綠丘站步行約 10 分鐘",
+    "hours": "10:00 - 18:00",
+    "closed": "每週一、二公休",
+    "tel": "+81-166-65-8899",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bakery+Shop+Organic+Bread+旭川",
+    "gradient": "linear-gradient(135deg, #65a30d 0%, #4d7c0f 100%)",
+    "lat": 43.7299,
+    "lng": 142.3789,
+    "businessHours": {
+      "closedDays": [
+        1
+      ],
+      "periods": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "region": "asahikawa",
+    "mapLabel": "天然酵母包"
+  },
+  {
+    "id": 119,
+    "name": "Asahikawa Zoo Cafe (甜點)",
+    "japaneseName": "旭川動物園中央食堂 カフェ",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (蛋奶素水果聖代與點心)",
+    "tags": [
+      "動物園",
+      "水果杯",
+      "炸薯片",
+      "甜點烘焙",
+      "旭川"
+    ],
+    "rating": 4.3,
+    "description": "位於旭山動物園內。為遊客提供美味的「北海道哈密瓜聖代」與「男爵土豆炸薯片」，皆為蛋奶素，是在動物園遊玩時的甜點好選擇。",
+    "address": "北海道旭川市東旭川町倉沼 旭山動物園內",
+    "transit": "旭川站搭乘動物園線巴士約 40 分鐘",
+    "hours": "10:30 - 16:30",
+    "closed": "配合動物園休園日",
+    "tel": "+81-166-36-5588",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Asahikawa+Zoo+Cafe+(甜點)+旭川",
+    "gradient": "linear-gradient(135deg, #854d0e 0%, #713f12 100%)",
+    "lat": 43.7688,
+    "lng": 142.4832,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "10:30",
+          "close": "16:30"
+        }
+      ]
+    },
+    "region": "asahikawa",
+    "mapLabel": "水果聖代杯"
+  },
+  {
+    "id": 120,
+    "name": "Asahikawa Ramen Village Veggie Bowl",
+    "japaneseName": "旭川ラーメン村 菜の香",
+    "category": "ramen",
+    "categoryLabel": "日式拉麵",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供蔬食鹽味拉麵)",
+    "tags": [
+      "拉麵村",
+      "無叉燒拉麵",
+      "彩虹野菜",
+      "拉麵",
+      "旭川"
+    ],
+    "rating": 4.2,
+    "description": "位於旭川拉麵村內。提供客製化的「彩虹野菜素食鹽味拉麵」，使用全蔬菜與海鹽湯底，不含動物油及叉燒，麵條極具嚼勁。",
+    "address": "北海道旭川市永山11条4丁目119-48 旭川拉麵村內",
+    "transit": "南永山站步行約 8 分鐘",
+    "hours": "11:00 - 20:00",
+    "closed": "無特定公休日",
+    "tel": "+81-166-48-2153",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Asahikawa+Ramen+Village+Veggie+Bowl+旭川",
+    "gradient": "linear-gradient(135deg, #e11d48 0%, #be123c 100%)",
+    "lat": 43.7911,
+    "lng": 142.4088,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "region": "asahikawa",
+    "mapLabel": "大盛蔬菜麵"
+  },
+  {
+    "id": 121,
+    "name": "Furano Cafe Goryo",
+    "japaneseName": "カフェ 五葉 (Goryo)",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "100% 純素 (百年古民家農園咖哩)",
+    "tags": [
+      "古民家",
+      "田園咖哩",
+      "有機番茄",
+      "精緻簡餐",
+      "富良野"
+    ],
+    "rating": 4.9,
+    "description": "富良野極富盛名的百年老屋咖啡廳。主打「五陵蔬食咖哩飯」，咖哩醬以自家農園栽種的番茄與數十種香料精熬，100%純素無蛋奶無肉，搭配香Q玄米，環境如詩如畫。",
+    "address": "北海道富良野市五十子乙2-1",
+    "transit": "富良野站搭乘計程車約 8 分鐘",
+    "hours": "11:00 - 20:00",
+    "closed": "每週二公休",
+    "tel": "+81-167-23-5139",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Furano+Cafe+Goryo+富良野",
+    "gradient": "linear-gradient(135deg, #0d9488 0%, #0f766e 100%)",
+    "lat": 43.3288,
+    "lng": 142.3421,
+    "businessHours": {
+      "closedDays": [
+        2
+      ],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "region": "furano",
+    "mapLabel": "田園蔬食咖"
+  },
+  {
+    "id": 122,
+    "name": "Yuiga Doxon",
+    "japaneseName": "唯我独尊 咖哩店",
+    "category": "soupcurry",
+    "categoryLabel": "特色湯咖哩",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供野菜咖哩，可選素醬汁)",
+    "tags": [
+      "特色咖哩",
+      "人氣名店",
+      "無肉醬汁可",
+      "湯咖哩",
+      "富良野"
+    ],
+    "rating": 4.7,
+    "description": "富良野森林樹屋造型的人氣咖哩店。其招牌「自家製野菜咖哩」可向店員要求使用「無肉洋蔥基底醬汁（Vegan Sauce）」，焦香洋蔥與濃郁香料極具衝擊力！",
+    "address": "北海道富良野市日の出町11-8",
+    "transit": "富良野站步行約 5 分鐘",
+    "hours": "11:00 - 21:00",
+    "closed": "每週一公休",
+    "tel": "+81-167-23-4784",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yuiga+Doxon+富良野",
+    "gradient": "linear-gradient(135deg, #d97706 0%, #b45309 100%)",
+    "lat": 43.3444,
+    "lng": 142.3888,
+    "businessHours": {
+      "closedDays": [
+        1
+      ],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "region": "furano",
+    "mapLabel": "香料野菜咖"
+  },
+  {
+    "id": 123,
+    "name": "Furano Wine House",
+    "japaneseName": "ふらのワインハウス",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (起司鍋與瑪格麗特比薩)",
+    "tags": [
+      "起司鍋",
+      "葡萄美酒",
+      "高樓景觀",
+      "精緻簡餐",
+      "富良野"
+    ],
+    "rating": 4.5,
+    "description": "座落於山丘上，能俯瞰富良野盆地。提供以富良野特產起司製作的「雙人起司起司鍋 (Fondue)」及新鮮時蔬盤，為蛋奶素（無肉無魚介），美景配美食極為享受。",
+    "address": "北海道富良野市清水山",
+    "transit": "富良野站搭乘計程車約 5 分鐘",
+    "hours": "11:00 - 21:00",
+    "closed": "無特定公休日",
+    "tel": "+81-167-23-4155",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Furano+Wine+House+富良野",
+    "gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+    "lat": 43.3611,
+    "lng": 142.3712,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "region": "furano",
+    "mapLabel": "起司火鍋披"
+  },
+  {
+    "id": 124,
+    "name": "Furano Cheese Factory Cafe",
+    "japaneseName": "富良野チーズ工房 ピッツァ",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (起司工房現烤起司塔與冰淇淋)",
+    "tags": [
+      "現烤披薩",
+      "手作起司",
+      "手工Gelato",
+      "甜點烘焙",
+      "富良野"
+    ],
+    "rating": 4.7,
+    "description": "富良野起司工房內的附設餐飲區。提供現點現烤的「雙重起司瑪格麗特披薩」及手工製作的牛奶義式冰淇淋 (Gelato)，皆為蛋奶素，起司香氣撲鼻。",
+    "address": "北海道富良野市中五区",
+    "transit": "富良野站搭乘計程車約 9 分鐘",
+    "hours": "09:00 - 17:00",
+    "closed": "無特定公休日",
+    "tel": "+81-167-25-1010",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Furano+Cheese+Factory+Cafe+富良野",
+    "gradient": "linear-gradient(135deg, #65a30d 0%, #4d7c0f 100%)",
+    "lat": 43.3321,
+    "lng": 142.3688,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "region": "furano",
+    "mapLabel": "起司義式冰"
+  },
+  {
+    "id": 125,
+    "name": "Furano Cafe Mujyoki",
+    "japaneseName": "ふらの無心庵",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "100% 純素 (傳統日式手作純素和菓子)",
+    "tags": [
+      "和菓子",
+      "抹茶紅豆",
+      "純素無麩",
+      "甜點烘焙",
+      "富良野"
+    ],
+    "rating": 4.6,
+    "description": "富良野森林旁的日式老茶屋。全店甜點不使用蛋、奶。提供精緻的手作醬油烤糰子、黑糖蜜蕨餅及季節紅豆大福，配上一杯手點日本有機抹茶，氣氛寧靜平和。",
+    "address": "北海道富良野市下御料",
+    "transit": "學田站步行約 15 分鐘",
+    "hours": "12:00 - 17:00",
+    "closed": "每週三、四公休",
+    "tel": "+81-167-22-3456",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Furano+Cafe+Mujyoki+富良野",
+    "gradient": "linear-gradient(135deg, #854d0e 0%, #713f12 100%)",
+    "lat": 43.3211,
+    "lng": 142.3512,
+    "businessHours": {
+      "closedDays": [
+        3
+      ],
+      "periods": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "region": "furano",
+    "mapLabel": "純素和菓子"
+  },
+  {
+    "id": 126,
+    "name": "Lavender East Cafe (甜點)",
+    "japaneseName": "ラベンダーイースト カフェ",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (蛋奶素薰衣草霜淇淋)",
+    "tags": [
+      "薰衣草",
+      "富良野哈密瓜",
+      "霜淇淋",
+      "甜點烘焙",
+      "富良野"
+    ],
+    "rating": 4.6,
+    "description": "富良野最大薰衣草田內的露天咖啡座。提供「經典薰衣草霜淇淋」及現切「富良野哈密瓜切片」，純天然無添加防腐劑，皆為蛋奶素，是夏季賞花必吃！",
+    "address": "北海道空知郡上富良野町東6線北16号",
+    "transit": "中富良野站搭乘計程車約 10 分鐘",
+    "hours": "09:00 - 16:30",
+    "closed": "配合薰衣草花季營業",
+    "tel": "+81-167-39-3939",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lavender+East+Cafe+(甜點)+富良野",
+    "gradient": "linear-gradient(135deg, #db2777 0%, #be185d 100%)",
+    "lat": 43.4355,
+    "lng": 142.4412,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "09:00",
+          "close": "16:30"
+        }
+      ]
+    },
+    "region": "furano",
+    "mapLabel": "薰衣草霜淇"
+  },
+  {
+    "id": 127,
+    "name": "Furano Soba Sansen",
+    "japaneseName": "ふらの蕎麦屋 三線",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (野菜天婦羅手打蕎麥麵)",
+    "tags": [
+      "蕎麥麵",
+      "天婦羅",
+      "手打細麵",
+      "精緻簡餐",
+      "富良野"
+    ],
+    "rating": 4.4,
+    "description": "富良野市中心的手打蕎麥麵店。點選「野菜天婦羅蕎麥麵（可要求改為昆布醬油底）」，使用當地的南瓜、舞菇、茄子和紫蘇葉酥炸，搭配十割手打蕎麥麵。",
+    "address": "北海道富良野市幸町12-5",
+    "transit": "富良野站步行約 3 分鐘",
+    "hours": "11:30 - 15:00 / 17:30 - 20:30",
+    "closed": "每週二公休",
+    "tel": "+81-167-22-1111",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Furano+Soba+Sansen+富良野",
+    "gradient": "linear-gradient(135deg, #0d9488 0%, #0f766e 100%)",
+    "lat": 43.3455,
+    "lng": 142.3855,
+    "businessHours": {
+      "closedDays": [
+        2
+      ],
+      "periods": [
+        {
+          "open": "11:30",
+          "close": "15:00"
+        }
+      ]
+    },
+    "region": "furano",
+    "mapLabel": "野菜天婦羅"
+  },
+  {
+    "id": 128,
+    "name": "Furano Herb Hill",
+    "japaneseName": "富良野ハーブヒル レストラン",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (北海道時蔬沙拉自助餐)",
+    "tags": [
+      "自助餐",
+      "時蔬吃到飽",
+      "近富良野",
+      "精緻簡餐",
+      "富良野"
+    ],
+    "rating": 4.3,
+    "description": "位於薰衣草觀光農園內的大型餐廳。中午提供豐富的北海道蔬菜自助餐 (Buffet)，設有巨大的新鮮沙拉吧、烤男爵土豆、蒸甜玉米及各式水果，極適合素食者補充葉綠素。",
+    "address": "北海道空知郡中富良野町西1線北14号",
+    "transit": "中富良野站步行約 15 分鐘",
+    "hours": "11:00 - 15:00",
+    "closed": "無特定公休日",
+    "tel": "+81-167-44-2200",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Furano+Herb+Hill+富良野",
+    "gradient": "linear-gradient(135deg, #4f46e5 0%, #3730a3 100%)",
+    "lat": 43.4111,
+    "lng": 142.4212,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "15:00"
+        }
+      ]
+    },
+    "region": "furano",
+    "mapLabel": "時蔬沙拉吧"
+  },
+  {
+    "id": 129,
+    "name": "Farm Tomita Potato House",
+    "japaneseName": "ファーム富田 とうきびハウス",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (蒸玉米與炸土豆餅)",
+    "tags": [
+      "富田農場",
+      "男爵土豆",
+      "奶油玉米",
+      "甜點烘焙",
+      "富良野"
+    ],
+    "rating": 4.5,
+    "description": "富田農場內的熱食攤位。提供現蒸「富良野超甜玉米」與現烤「起司男爵土豆（蛋奶素）」，自然原味不添加多餘調料，能吃到最甜美的北海道土產。",
+    "address": "北海道空知郡中富良野町基線北15号 富田農場內",
+    "transit": "中富良野站步行約 20 分鐘",
+    "hours": "08:30 - 17:00",
+    "closed": "無特定公休日",
+    "tel": "+81-167-39-3939",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Farm+Tomita+Potato+House+富良野",
+    "gradient": "linear-gradient(135deg, #db2777 0%, #be185d 100%)",
+    "lat": 43.4188,
+    "lng": 142.4288,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "08:30",
+          "close": "17:00"
+        }
+      ]
+    },
+    "region": "furano",
+    "mapLabel": "炸男爵土豆"
+  },
+  {
+    "id": 130,
+    "name": "Furano Kan Kan Mura Cafe",
+    "japaneseName": "富良野 歓寒村カフェ",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (森林咖啡與熱豆乳)",
+    "tags": [
+      "森林小屋",
+      "小木屋",
+      "熱飲",
+      "甜點烘焙",
+      "富良野"
+    ],
+    "rating": 4.4,
+    "description": "新富良野王子大飯店旁的森林小屋區。冬日裡在燈光夢幻的木屋中點一杯「熱燕麥奶拿鐵」或「熱紅豆湯年糕（純素）」，在白雪皚皚的森林中極具詩意。",
+    "address": "北海道富良野市中御料 新富良野王子飯店旁",
+    "transit": "富良野站搭乘巴士約 15 分鐘",
+    "hours": "16:00 - 20:00",
+    "closed": "冬季特定期間營業",
+    "tel": "+81-167-22-1111",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Furano+Kan+Kan+Mura+Cafe+富良野",
+    "gradient": "linear-gradient(135deg, #65a30d 0%, #4d7c0f 100%)",
+    "lat": 43.3235,
+    "lng": 142.3544,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "16:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "region": "furano",
+    "mapLabel": "豆乳熱咖啡"
+  },
+  {
+    "id": 131,
+    "name": "Biei Senka Cafe",
+    "japaneseName": "美瑛選果 こむぎ工房",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (美瑛現烤麵包與小麥點心)",
+    "tags": [
+      "小麥麵包",
+      "男爵馬鈴薯",
+      "排隊排長",
+      "甜點烘焙",
+      "美瑛"
+    ],
+    "rating": 4.7,
+    "description": "美瑛最知名的在地農產品推廣中心。其附設麵包坊「こむぎ工房」每天早上現烤多款美瑛小麥麵包，招牌「黑豆麵包」及「玉米麵包」為蛋奶素，不含肉類，麥香極其航向。",
+    "address": "北海道上川郡美瑛町大町2丁目 美瑛選果內",
+    "transit": "美瑛站步行約 10 分鐘",
+    "hours": "09:00 - 17:00",
+    "closed": "無特定公休日",
+    "tel": "+81-166-92-4400",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Biei+Senka+Cafe+美瑛",
+    "gradient": "linear-gradient(135deg, #854d0e 0%, #713f12 100%)",
+    "lat": 43.5933,
+    "lng": 142.4502,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "region": "biei",
+    "mapLabel": "美瑛男爵燒"
+  },
+  {
+    "id": 132,
+    "name": "Cafe Biei Hill",
+    "japaneseName": "カフェ 美瑛の丘",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供美瑛時蔬咖哩盤)",
+    "tags": [
+      "景觀餐廳",
+      "拼布之丘",
+      "蔬菜咖哩",
+      "精緻簡餐",
+      "美瑛"
+    ],
+    "rating": 4.6,
+    "description": "位於拼布之路丘陵上的景觀餐廳。提供使用美瑛產洋蔥慢火精燉的「美瑛野菜咖哩定食（無肉底）」，搭配酥炸的南瓜、西蘭花與聖女番茄，能一邊眺望美瑛丘陵一邊用餐。",
+    "address": "北海道上川郡美瑛町大久保",
+    "transit": "美瑛站搭乘計程車約 7 分鐘",
+    "hours": "11:00 - 16:00",
+    "closed": "每週四公休",
+    "tel": "+81-166-92-1234",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cafe+Biei+Hill+美瑛",
+    "gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+    "lat": 43.6088,
+    "lng": 142.4411,
+    "businessHours": {
+      "closedDays": [
+        4
+      ],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "region": "biei",
+    "mapLabel": "美瑛野菜咖"
+  },
+  {
+    "id": 133,
+    "name": "Cafe de La Paix",
+    "japaneseName": "カフェ・ド・ラ・ペ (La Paix)",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (熱溶拉可雷特起司與男爵馬鈴薯)",
+    "tags": [
+      "森林老屋",
+      "烤起司",
+      "歐洲風情",
+      "精緻簡餐",
+      "美瑛"
+    ],
+    "rating": 4.8,
+    "description": "隱身於美瑛針葉林中的北歐風小木屋。主打正宗瑞士「拉可雷特起司 (Raclette)」。將融化的焦香起司厚厚地刮在現蒸的美瑛男爵土豆與紅蘿蔔上，為起司素食的極致美味！",
+    "address": "北海道上川郡美瑛町美澤雙葉",
+    "transit": "美瑛站搭乘計程車約 12 分鐘",
+    "hours": "10:00 - 18:00",
+    "closed": "每週四公休",
+    "tel": "+81-166-92-3489",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cafe+de+La+Paix+美瑛",
+    "gradient": "linear-gradient(135deg, #0d9488 0%, #0f766e 100%)",
+    "lat": 43.5702,
+    "lng": 142.4902,
+    "businessHours": {
+      "closedDays": [
+        4
+      ],
+      "periods": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "region": "biei",
+    "mapLabel": "瑞士烤起司"
+  },
+  {
+    "id": 134,
+    "name": "Biei Wheat Cafe",
+    "japaneseName": "美瑛小麥 カフェ",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (手作時蔬起司三明治)",
+    "tags": [
+      "三明治",
+      "有機沙拉",
+      "現烤小麥",
+      "精緻簡餐",
+      "美瑛"
+    ],
+    "rating": 4.5,
+    "description": "使用美瑛當地小麥製作吐司。提供「起司酪梨烤蔬菜三明治」，配以豐富的生菜沙拉與小麥豆乳茶，口感鬆軟麥香迷人，非常適合素食者吃輕食午餐。",
+    "address": "北海道上川郡美瑛町本町1-5",
+    "transit": "美瑛站步行約 2 分鐘",
+    "hours": "10:00 - 18:00",
+    "closed": "無特定公休日",
+    "tel": "+81-166-92-5678",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Biei+Wheat+Cafe+美瑛",
+    "gradient": "linear-gradient(135deg, #4f46e5 0%, #3730a3 100%)",
+    "lat": 43.5905,
+    "lng": 142.4588,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "region": "biei",
+    "mapLabel": "小麥野菜堡"
+  },
+  {
+    "id": 135,
+    "name": "Biei Blue Pond Cafe (甜點)",
+    "japaneseName": "青い池売店 ブルーポンド",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (蛋奶素青池汽水布丁與聖代)",
+    "tags": [
+      "白金青池",
+      "藍色布丁",
+      "網美打卡",
+      "甜點烘焙",
+      "美瑛"
+    ],
+    "rating": 4.4,
+    "description": "位於世界級美景「美瑛白金青池」入口處。提供視覺驚豔的「青池藍色布丁」與「青池霜淇淋」，以彈珠汽水口味與牛奶調和，為蛋奶素（無明膠成分），打卡拍照首選！",
+    "address": "北海道上川郡美瑛町白金 美瑛白金青池旁",
+    "transit": "美瑛站搭乘美瑛町營巴士約 20 分鐘",
+    "hours": "09:00 - 17:00",
+    "closed": "無特定公休日",
+    "tel": "+81-166-94-3355",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Biei+Blue+Pond+Cafe+(甜點)+美瑛",
+    "gradient": "linear-gradient(135deg, #db2777 0%, #be185d 100%)",
+    "lat": 43.4911,
+    "lng": 142.6133,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "region": "biei",
+    "mapLabel": "青池汽水布"
+  },
+  {
+    "id": 136,
+    "name": "Cafe Koeru Biei",
+    "japaneseName": "カフェ こえる (Koeru)",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供野菜咖哩烏龍麵，可去肉)",
+    "tags": [
+      "烏龍麵",
+      "咖哩烏龍",
+      "近美瑛站",
+      "精緻簡餐",
+      "美瑛"
+    ],
+    "rating": 4.4,
+    "description": "美瑛站旁的溫馨餐館。提供美瑛特產「咖哩烏龍麵」，可要求更換為無肉的野菜咖哩高湯底，配上炸土豆與南瓜，烏龍麵條極具彈性。",
+    "address": "北海道上川郡美瑛町栄町1-2",
+    "transit": "美瑛站步行約 1 分鐘",
+    "hours": "11:00 - 15:00 / 17:00 - 20:30",
+    "closed": "每週二公休",
+    "tel": "+81-166-92-5531",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cafe+Koeru+Biei+美瑛",
+    "gradient": "linear-gradient(135deg, #0d9488 0%, #0f766e 100%)",
+    "lat": 43.5902,
+    "lng": 142.4579,
+    "businessHours": {
+      "closedDays": [
+        2
+      ],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "15:00"
+        }
+      ]
+    },
+    "region": "biei",
+    "mapLabel": "炸烏龍麵定"
+  },
+  {
+    "id": 137,
+    "name": "Biei Milk Farm (甜點)",
+    "japaneseName": "美瑛放牧酪農場 カフェ",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (現烤起司塔與鮮乳霜淇淋)",
+    "tags": [
+      "酪農場",
+      "起司塔",
+      "放牧牛乳",
+      "甜點烘焙",
+      "美瑛"
+    ],
+    "rating": 4.7,
+    "description": "美瑛山丘上放牧牛群的酪農場。直營咖啡座提供「美瑛放牧鮮乳霜淇淋」及「手工現烤起司塔」，完全使用農場當天擠出的鮮乳，口感細滑濃郁，蛋奶素可。",
+    "address": "北海道上川郡美瑛町字新星平和",
+    "transit": "美瑛站搭乘計程車約 15 分鐘",
+    "hours": "10:00 - 17:00",
+    "closed": "無特定公休日",
+    "tel": "+81-166-68-1234",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Biei+Milk+Farm+(甜點)+美瑛",
+    "gradient": "linear-gradient(135deg, #854d0e 0%, #713f12 100%)",
+    "lat": 43.5188,
+    "lng": 142.4288,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "region": "biei",
+    "mapLabel": "現烤起司塔"
+  },
+  {
+    "id": 138,
+    "name": "Biei Soba Ten",
+    "japaneseName": "美瑛蕎麦 天",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供十割蕎麥與野菜天婦羅)",
+    "tags": [
+      "十割蕎麥",
+      "天婦羅",
+      "健康手作",
+      "精緻簡餐",
+      "美瑛"
+    ],
+    "rating": 4.5,
+    "description": "使用 100% 美瑛產蕎麥磨製的十割蕎麥麵。可請店家提供特製「昆布鹽」或「無魚介純醬油底」沾汁，配上剛出爐的脆皮南瓜與蓮藕天婦羅，原汁原味。",
+    "address": "北海道上川郡美瑛町大町1-1",
+    "transit": "美瑛站步行約 5 分鐘",
+    "hours": "11:00 - 15:00 / 17:00 - 19:30",
+    "closed": "每週三公休",
+    "tel": "+81-166-92-0011",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Biei+Soba+Ten+美瑛",
+    "gradient": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+    "lat": 43.5921,
+    "lng": 142.4555,
+    "businessHours": {
+      "closedDays": [
+        3
+      ],
+      "periods": [
+        {
+          "open": "11:00",
+          "close": "15:00"
+        }
+      ]
+    },
+    "region": "biei",
+    "mapLabel": "十割蕎麥麵"
+  },
+  {
+    "id": 139,
+    "name": "Pizza & Pasta Biei",
+    "japaneseName": "ピッツァ＆パスタ 美瑛店",
+    "category": "bistro",
+    "categoryLabel": "精緻異國",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (新鮮番茄茄汁麵與鮮菇比薩)",
+    "tags": [
+      "義大利麵",
+      "聖女番茄",
+      "時蔬比薩",
+      "精緻簡餐",
+      "美瑛"
+    ],
+    "rating": 4.4,
+    "description": "使用美瑛當地生產的番茄與鮮香菇。素食者可點「美瑛聖女番茄茄汁義大利麵」及「奶油綜合鮮菇披薩」，茄汁酸甜爽口，分量十足。",
+    "address": "北海道上川郡美瑛町中町1-4",
+    "transit": "美瑛站步行約 3 分鐘",
+    "hours": "11:30 - 20:30",
+    "closed": "每週一公休",
+    "tel": "+81-166-92-2211",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pizza+&+Pasta+Biei+美瑛",
+    "gradient": "linear-gradient(135deg, #0d9488 0%, #0f766e 100%)",
+    "lat": 43.5888,
+    "lng": 142.4592,
+    "businessHours": {
+      "closedDays": [
+        1
+      ],
+      "periods": [
+        {
+          "open": "11:30",
+          "close": "20:30"
+        }
+      ]
+    },
+    "region": "biei",
+    "mapLabel": "鮮菇茄汁麵"
+  },
+  {
+    "id": 140,
+    "name": "Biei Potato House",
+    "japaneseName": "美瑛ポテトの家",
+    "category": "bakery",
+    "categoryLabel": "甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (蒸烤美瑛五彩土豆與番薯塔)",
+    "tags": [
+      "五彩土豆",
+      "烤番薯塔",
+      "在地農產",
+      "甜點烘焙",
+      "美瑛"
+    ],
+    "rating": 4.5,
+    "description": "專門推廣美瑛土豆的特色小店。提供「五彩蒸土豆拼盤」，內含不同顏色的美瑛地產土豆，只撒少許海鹽即極為香甜甜美，另有手作烤番薯塔甜點（蛋奶素）。",
+    "address": "北海道上川郡美瑛町美澤",
+    "transit": "美瑛站搭乘計程車約 8 分鐘",
+    "hours": "10:00 - 16:30",
+    "closed": "無特定公休日",
+    "tel": "+81-166-92-9900",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Biei+Potato+House+美瑛",
+    "gradient": "linear-gradient(135deg, #854d0e 0%, #713f12 100%)",
+    "lat": 43.5611,
+    "lng": 142.4811,
+    "businessHours": {
+      "closedDays": [],
+      "periods": [
+        {
+          "open": "10:00",
+          "close": "16:30"
+        }
+      ]
+    },
+    "region": "biei",
+    "mapLabel": "烤男爵地瓜"
   }
 ]
 
@@ -3714,6 +5472,19 @@ function initLeafletMap() {
     subdomains: 'abcd',
     maxZoom: 20
   }).addTo(map);
+
+  // 監聽縮放事件，當地圖放大至 14 級以上時，自動顯示 Pin 點上方的 8 字簡短描述
+  map.on("zoomend", () => {
+    const currentZoom = map.getZoom();
+    const mapDiv = document.getElementById("map");
+    if (mapDiv) {
+      if (currentZoom >= 14) {
+        mapDiv.classList.add("map-zoomed-in");
+      } else {
+        mapDiv.classList.remove("map-zoomed-in");
+      }
+    }
+  });
 
   // 初始化所有標記
   updateMapMarkers(restaurants);
@@ -3808,6 +5579,14 @@ function updateMapMarkers(activeRestaurants) {
     });
 
     const marker = L.marker([item.lat, item.lng], { icon: customIcon }).addTo(map);
+    
+    // 綁定氣泡標籤 (Tooltip)，顯示 8 字內描述
+    marker.bindTooltip(item.mapLabel || "素食友善", {
+      permanent: true,
+      direction: 'top',
+      className: 'map-marker-tooltip',
+      offset: [0, -32]
+    });
     
     // 氣泡 Popup 中文資訊整合營業狀態
     const popupContent = `
@@ -4173,13 +5952,12 @@ function deg2rad(deg) {
   return deg * (Math.PI / 180);
 }
 
-// 8. 設置分類過濾
+// 8. 設置分類與地區複選過濾
 function setupFilters() {
-  const tabs = document.querySelectorAll(".tab-btn");
-  tabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-      tabs.forEach(t => t.classList.remove("active"));
-      tab.classList.add("active");
+  // 取得所有的複選膠囊按鈕
+  const checkboxes = document.querySelectorAll(".checkbox-pill-input");
+  checkboxes.forEach(box => {
+    box.addEventListener("change", () => {
       filterList();
     });
   });
