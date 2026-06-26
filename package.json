@@ -1,0 +1,17 @@
+{
+  "name": "sapporo-vegetarian-food-map",
+  "version": "1.0.0",
+  "description": "Sapporo Vegetarian & Vegan Food Map PWA",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y http-server . -p 3000 -o"
+  },
+  "keywords": [
+    "sapporo",
+    "vegetarian",
+    "vegan",
+    "pwa"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}

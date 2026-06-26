@@ -1,0 +1,21 @@
+{
+  "short_name": "札幌素食",
+  "name": "札幌素食與純素餐廳地圖",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#0d1510",
+  "theme_color": "#10b981",
+  "display": "standalone",
+  "orientation": "portrait"
+}

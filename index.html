@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>札幌素食與純素餐廳地圖 | 2026 最新版互動式離線旅遊導覽</title>
+  <meta name="description" content="專為前往北海道札幌旅遊的素食者設計的互動式地圖網頁。精選 100 家優質拉麵、湯咖哩、精緻料理及甜點烘焙店，整合 Leaflet.js 互動地圖與瀏覽器 GPS 定位功能，即時標記店家位置並動態計算距離，支援 PWA 離線瀏覽！">
+  <meta name="keywords" content="札幌素食, 札幌純素, 札幌蔬食, 札幌拉麵素食, 札幌湯咖哩素食, 日本素食地圖, 札幌 vegan, 札幌 vegetarian, 札幌素食地圖">
+  <meta name="theme-color" content="#10b981">
+  
+  <!-- SEO Open Graph 標記 -->
+  <meta property="og:title" content="札幌素食與純素餐廳地圖 | 互動式離線旅遊導覽">
+  <meta property="og:description" content="精選 100 家優質素食與友善餐廳，整合 Leaflet 地圖與 GPS 即時定位，支援 PWA 離線瀏覽，讓您在北海道旅行中吃得安心又方便！">
+  <meta property="og:type" content="website">
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  
+  <!-- 引入 Leaflet.js 地圖庫 CSS (CORS 支援，自動被 Service Worker 快取) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  
+  <!-- 引入自訂樣式表 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- 頂部頁首與品牌 -->
+    <header>
+      <div class="logo-area">
+        <!-- 樹葉形狀的精緻 SVG Logo -->
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 1.2 5 0 9A10 10 0 0 1 11 20z" />
+          <path d="M19 2c-2.26 4.33-5.27 7.14-8 10" />
+        </svg>
+        <h1 id="app-title">札幌素食地圖</h1>
+      </div>
+      <p class="tagline">精選札幌 100 家蔬食 & 友善餐廳，結合 GPS 定位與地圖聯動，讓您在旅行中隨時隨地搜尋身邊的美食。</p>
+      <span class="version-badge">📅 2026 最新版 • 整合 GPS 與離線地圖</span>
+    </header>
+
+    <!-- 搜尋與過濾面板 -->
+    <section class="filter-section" aria-label="搜尋與篩選餐廳">
+      <div class="search-wrapper">
+        <input type="text" id="search-bar" placeholder="搜尋店名、捷運站、關鍵字（例如：無五辛、拉麵、圓山公園）..." aria-label="搜尋餐廳">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </div>
+      
+      <!-- 分類標籤頁面 -->
+      <div class="tabs-container" role="tablist">
+        <button class="tab-btn active" role="tab" aria-selected="true" data-filter="all" id="tab-all">顯示全部</button>
+        <button class="tab-btn" role="tab" aria-selected="false" data-filter="ramen" id="tab-ramen">🍜 日式拉麵</button>
+        <button class="tab-btn" role="tab" aria-selected="false" data-filter="soupcurry" id="tab-soupcurry">🍛 特色湯咖哩</button>
+        <button class="tab-btn" role="tab" aria-selected="false" data-filter="bistro" id="tab-bistro">🥗 精緻異國/食養</button>
+        <button class="tab-btn" role="tab" aria-selected="false" data-filter="bakery" id="tab-bakery">🍰 甜點與烘焙</button>
+      </div>
+
+      <!-- 🕒 營業狀態過濾選項 (顯示全部/僅顯示營業中) -->
+      <div class="status-filter-wrapper">
+        <span class="filter-label">🕒 營業篩選：</span>
+        <label class="status-radio-label">
+          <input type="radio" name="status-filter" value="all" checked>
+          <span>顯示全部店家 (預覽)</span>
+        </label>
+        <label class="status-radio-label">
+          <input type="radio" name="status-filter" value="open-only">
+          <span>僅顯示目前營業中 (當下可去)</span>
+        </label>
+      </div>
+    </section>
+
+    <!-- 📍 點擊取得定位與距離計算按鈕 -->
+    <div class="geo-control-group">
+      <button id="geo-btn" class="geo-btn" title="開啟 GPS 定位計算距離">
+        <svg class="geo-btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+        </svg>
+        📍 取得我目前的位置（自動按距離排序）
+      </button>
+      <p class="geo-instructions">💡 <strong>定位操作說明：</strong> 點擊上方按鈕後，若您的手機/電腦有網路，瀏覽器會彈出詢問定位權限的視窗，請點選 <strong>「允許 (Allow)」</strong>。成功定位後，地圖上會標示藍色閃爍小圓點，且店家清單將自動按距離「由近到遠」排序，方便您就近選擇！</p>
+    </div>
+
+    <!-- 🗺️ 展開/收合地圖按鈕 (預設收合地圖以節省版面與效能) -->
+    <div class="map-toggle-wrapper">
+      <button id="toggle-map-btn" class="toggle-map-btn" title="開啟或收合互動地圖">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon>
+        </svg>
+        開啟互動地圖 (在地圖上查看全部)
+      </button>
+    </div>
+
+    <!-- 🗺️ 互動式地圖區塊 (預設收合) -->
+    <section id="map-container" class="map-container" aria-label="札幌素食互動地圖">
+      <div id="map"></div>
+    </section>
+
+    <!-- 餐廳卡片網格 -->
+    <main>
+      <section class="restaurant-grid" id="restaurant-grid" aria-live="polite">
+        <!-- 餐廳卡片將由 app.js 動態渲染 -->
+      </section>
+      
+      <!-- 日本旅遊素食指南板 -->
+      <section class="guide-card" aria-labelledby="guide-title">
+        <div class="guide-title-area">
+          <svg class="guide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <h2 id="guide-title">🇯🇵 日本旅遊素食實用小指南</h2>
+        </div>
+        
+        <div class="guide-grid">
+          <!-- 專欄一：常用日文素食溝通句子 -->
+          <div class="guide-col">
+            <h3>💬 實用日文溝通句子 (長按可複製)</h3>
+            <ul>
+              <li>
+                <strong>我是素食者：</strong><br>
+                <span class="guide-phrase">私はベジタリアンです。</span><br>
+                (Watashi wa bejitariandu desu.)
+              </li>
+              <li>
+                <strong>我不吃肉、魚、蛋、奶：</strong><br>
+                <span class="guide-phrase">肉、魚、卵、乳製品は食べられません。</span><br>
+                (Niku, sakana, tamago, nyuseihin wa taberaremasen.)
+              </li>
+              <li>
+                <strong>請不要使用高湯 (柴魚熬製)：</strong><br>
+                <span class="guide-phrase">出汁（だし）を使わないでください。</span><br>
+                (Dashi wa tsukawanaide kudasai.)
+              </li>
+              <li>
+                <strong>請幫我去五辛 (蔥、蒜、洋蔥等)：</strong><br>
+                <span class="guide-phrase">五葷（ネギ、ニンニク、ニラ、タマネギ）を抜いてください。</span><br>
+                (Gokun wa nuite kudasai.)
+              </li>
+            </ul>
+          </div>
+          
+          <!-- 專欄二：陷阱成分注意指南 -->
+          <div class="guide-col">
+            <h3>⚠️ 常見日本食品「隱形陷阱」</h3>
+            <ul>
+              <li><strong>出汁 (Dashi)：</strong>日本絕大多數拉麵湯底、醬油醬汁和烏龍麵高湯，都是用鰹魚（柴魚）或昆布熬製，即使是蔬菜麵也極常含有鰹魚出汁，點餐前務必向店員再次確認。</li>
+              <li><strong>調味醬包與咖哩塊：</strong>市售一般的日式咖哩塊幾乎都含有牛油或豬油。</li>
+              <li><strong>動物性明膠 (Gelatin / ゼラチン)：</strong>許多便利商店的甜點、慕斯、優格 and 軟糖，都是用豬皮或牛骨明膠製作，純素者請特別留意成分表。</li>
+              <li><strong>日本麵包：</strong>一般烘焙坊的麵包常會使用人造奶油（Margarine）或起酥油（Shortening），其中可能含有動物性乳化劑。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+
+  <!-- 引入 Leaflet.js 地圖庫 JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  
+  <!-- 引入應用程式邏輯 -->
+  <script src="app.js"></script>
+</body>
+</html>

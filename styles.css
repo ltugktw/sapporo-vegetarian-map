@@ -1,0 +1,1186 @@
+/* 導入 Google Fonts - Outfit 與 Inter 提升整體質感 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+/* 全域設計系統變數 (亮色主題：白/淺灰底色，深灰高對比文字) */
+:root {
+  --bg-primary: #f8fafc; /* 極淺藍灰底色 */
+  --bg-secondary: #f1f5f9; /* 淺灰藍底色 */
+  --card-bg: #ffffff; /* 純白卡片底色 */
+  --card-border: #e2e8f0; /* 淺灰邊框 */
+  --card-border-hover: rgba(16, 185, 129, 0.5); /* 翡翠綠懸停邊框 */
+  
+  --primary: #10b981; /* 翡翠綠 */
+  --primary-hover: #059669; /* 深翡翠綠 */
+  --primary-glow: rgba(16, 185, 129, 0.15);
+  
+  --text-main: #1f2937; /* 深灰黑色，提升閱讀舒適度 */
+  --text-muted: #4b5563; /* 灰主要用於次要標籤 */
+  --text-highlight: #047857; /* 深綠色，用於高亮文字 */
+  
+  --font-title: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", sans-serif;
+  
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 20px -5px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 10px 10px -5px rgba(15, 23, 42, 0.04);
+  
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 基礎重置與背景設置 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.05) 0px, transparent 40%),
+    radial-gradient(at 100% 100%, rgba(14, 165, 233, 0.03) 0px, transparent 40%),
+    linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  background-attachment: fixed;
+  color: var(--text-main);
+  font-family: var(--font-body);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 80px;
+}
+
+/* 滾動條樣式優化 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.25);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* 主容器 */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 頂部 Header 設計 */
+header {
+  padding: 40px 0 24px 0;
+  text-align: center;
+  position: relative;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.logo-icon {
+  width: 44px;
+  height: 44px;
+  color: var(--primary);
+  filter: drop-shadow(0 2px 4px rgba(16, 185, 129, 0.2));
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+h1 {
+  font-family: var(--font-title);
+  font-size: 2.6rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  background: linear-gradient(135deg, #0f172a 30%, var(--primary-hover) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.tagline {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  max-width: 650px;
+  margin: 0 auto 10px auto;
+  font-weight: 500;
+}
+
+.version-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--primary-hover);
+  padding: 3px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  font-weight: 700;
+}
+
+/* 搜尋與過濾區塊 */
+.filter-section {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-md);
+}
+
+/* 搜尋欄 */
+.search-wrapper {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: var(--text-muted);
+  pointer-events: none;
+  transition: var(--transition-fast);
+}
+
+#search-bar {
+  width: 100%;
+  padding: 14px 20px 14px 50px;
+  background: #ffffff;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  outline: none;
+  transition: var(--transition-normal);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+#search-bar:focus {
+  border-color: var(--primary);
+  box-shadow: 
+    inset 0 1px 3px rgba(0, 0, 0, 0.05),
+    0 0 12px var(--primary-glow);
+}
+
+#search-bar:focus + .search-icon {
+  color: var(--primary);
+}
+
+/* 分類標籤頁面 */
+.tabs-container {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: none;
+}
+
+.tabs-container::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-btn {
+  background: #ffffff;
+  border: 1px solid var(--card-border);
+  color: var(--text-muted);
+  padding: 8px 18px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-title);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+}
+
+.tab-btn:hover {
+  background: rgba(16, 185, 129, 0.05);
+  color: var(--primary-hover);
+  border-color: rgba(16, 185, 129, 0.25);
+}
+
+.tab-btn.active {
+  background: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.2);
+  font-weight: 700;
+}
+
+/* 營業狀態過濾單選按鈕組 */
+.status-filter-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--card-border);
+}
+
+.filter-label {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.status-radio-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 6px 14px;
+  background: #ffffff;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  transition: var(--transition-fast);
+  user-select: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.status-radio-label:hover {
+  border-color: var(--primary);
+  color: var(--primary-hover);
+}
+
+.status-radio-label input[type="radio"] {
+  accent-color: var(--primary);
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.status-radio-label:has(input[type="radio"]:checked) {
+  background: #ecfdf5;
+  border-color: var(--primary);
+  color: var(--text-highlight);
+}
+
+/* 定位控制按鈕 */
+.geo-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 14px 20px;
+  background: #ffffff;
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  border-radius: var(--radius-md);
+  color: var(--text-highlight);
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.geo-btn:hover {
+  background: #ecfdf5;
+  border-color: var(--primary);
+  color: var(--primary-hover);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.1);
+  transform: translateY(-1px);
+}
+
+.geo-btn:active {
+  transform: translateY(0);
+}
+
+.geo-btn.success {
+  background: #ecfdf5;
+  border-color: var(--primary);
+  color: var(--text-highlight);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15);
+}
+
+.geo-btn-icon {
+  width: 18px;
+  height: 18px;
+  z-index: 1;
+}
+
+/* Geolocation 操作指南 */
+.geo-control-group {
+  margin-bottom: 20px;
+}
+
+.geo-instructions {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  background: #f8fafc;
+  border-left: 4px solid var(--primary);
+  padding: 10px 14px;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  margin-top: 10px;
+  line-height: 1.55;
+  box-shadow: var(--shadow-sm);
+  border-top: 1px solid var(--card-border);
+  border-right: 1px solid var(--card-border);
+  border-bottom: 1px solid var(--card-border);
+}
+
+/* loading 動畫 */
+.spinner {
+  animation: rotate 2s linear infinite;
+  width: 18px;
+  height: 18px;
+  z-index: 1;
+}
+
+.spinner .path {
+  stroke: var(--primary-hover);
+  stroke-linecap: round;
+  animation: dash 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes dash {
+  0% { stroke-dasharray: 1, 150; stroke-dashoffset: 0; }
+  50% { stroke-dasharray: 90, 150; stroke-dashoffset: -35; }
+  100% { stroke-dasharray: 90, 150; stroke-dashoffset: -124; }
+}
+
+/* 顯示地圖切換按鈕區塊 */
+.map-toggle-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.toggle-map-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 36px;
+  background: var(--primary);
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  font-family: var(--font-title);
+  font-weight: 800;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  letter-spacing: 0.02em;
+}
+
+.toggle-map-btn:hover {
+  background: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.35);
+}
+
+.toggle-map-btn.active {
+  background: #475569; /* 收起時使用暗灰色 */
+  box-shadow: 0 4px 12px rgba(71, 85, 105, 0.25);
+}
+
+.toggle-map-btn.active:hover {
+  background: #334155;
+}
+
+/* 2. 互動式 Leaflet 地圖區塊 (預設收合，高度為0，display none 透過 app.js 切換) */
+.map-container {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--card-border);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  margin-bottom: 40px;
+  position: relative;
+  background: #e5e7eb;
+  display: none; /* 預設隱藏 */
+}
+
+.map-container.show {
+  display: block; /* 展開地圖 */
+  animation: slideDown 0.4s ease-out;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#map {
+  width: 100%;
+  height: 420px;
+  z-index: 10;
+}
+
+/* 3. 自訂地圖標記 (Map Pins) CSS */
+.custom-map-pin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-pin-inner {
+  width: 34px;
+  height: 40px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(15, 23, 42, 0.25), inset 0 2px 4px rgba(255, 255, 255, 0.3);
+  border: 2px solid #ffffff;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.custom-map-pin:hover .map-pin-inner {
+  transform: rotate(-45deg) scale(1.18);
+  box-shadow: 0 8px 16px rgba(15, 23, 42, 0.35);
+  z-index: 9999;
+}
+
+.map-pin-svg {
+  width: 18px;
+  height: 18px;
+  transform: rotate(45deg); /* 將葉子旋轉回正 */
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.2));
+}
+
+/* 4. 使用者 GPS 定位點 pulsing 藍色標記 */
+.user-pulse-marker {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-pulse-inner {
+  width: 12px;
+  height: 12px;
+  background: #2563eb; /* 皇家藍 */
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.6);
+  z-index: 2;
+}
+
+.user-pulse-outer {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: rgba(37, 99, 235, 0.25);
+  border-radius: 50%;
+  animation: pulse-ring 1.8s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  z-index: 1;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.5); opacity: 1; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* Leaflet 地圖彈出 Popup 質感樣式重寫 (亮色白底高質感) */
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0;
+  color: var(--text-main) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+  border-left: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.leaflet-popup-content {
+  margin: 12px 16px !important;
+  min-width: 180px;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: var(--text-muted) !important;
+  padding: 8px 8px 0 0 !important;
+}
+
+.leaflet-container a.leaflet-popup-close-button:hover {
+  color: #111827 !important;
+}
+
+/* 餐廳卡片網格 */
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+/* 餐廳卡片 (亮色卡片設計，精緻陰影與綠色高亮) */
+.restaurant-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  will-change: transform, box-shadow;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--card-border-hover);
+  box-shadow: var(--shadow-lg);
+}
+
+/* 卡片點擊高亮發光動畫 (亮色綠色呼吸效果) */
+.restaurant-card.highlight-glow {
+  animation: glow-pulse-border 2s ease-in-out;
+}
+
+@keyframes glow-pulse-border {
+  0%, 100% {
+    border-color: var(--card-border);
+    box-shadow: var(--shadow-sm);
+  }
+  50% {
+    border-color: #10b981;
+    box-shadow: 
+      0 0 20px rgba(16, 185, 129, 0.25),
+      0 10px 20px -5px rgba(0, 0, 0, 0.08);
+  }
+}
+
+/* 卡片上方英雄區域 */
+.card-hero {
+  height: 120px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 16px 24px;
+}
+
+.card-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.45) 100%);
+}
+
+.category-badge {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  color: #ffffff;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 20px;
+  letter-spacing: 0.05em;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 距離標籤 */
+.distance-badge {
+  position: absolute;
+  bottom: 16px;
+  left: 24px;
+  z-index: 1;
+  background: #ffffff;
+  color: var(--text-highlight);
+  padding: 4px 12px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #a7f3d0;
+  box-shadow: 0 2px 4px rgba(16, 185, 129, 0.1);
+  animation: fade-in-scale 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.distance-icon {
+  width: 14px;
+  height: 14px;
+  color: var(--primary);
+}
+
+.rating-badge {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  color: #d97706; /* 暗金色 */
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid rgba(217, 119, 6, 0.25);
+  box-shadow: var(--shadow-sm);
+}
+
+.star-icon {
+  width: 14px;
+  height: 14px;
+}
+
+/* 卡片內容排版 */
+.card-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-header {
+  margin-bottom: 14px;
+}
+
+.restaurant-name {
+  font-family: var(--font-title);
+  font-size: 1.32rem;
+  font-weight: 700;
+  color: #111827;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.japanese-name {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.veg-status {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.status-pure {
+  background: #ecfdf5;
+  color: #059669;
+  border: 1px solid #a7f3d0;
+}
+
+.status-option {
+  background: #fffbeb;
+  color: #d97706;
+  border: 1px solid #fde68a;
+}
+
+/* 營業狀態標籤 (卡片專用) */
+.open-status-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.open-status-badge.open {
+  background: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+}
+
+.open-status-badge.closed {
+  background: #f3f4f6;
+  color: #4b5563;
+  border: 1px solid #e5e7eb;
+}
+
+/* 餐廳描述 */
+.description {
+  font-size: 0.92rem;
+  color: #374151;
+  margin-bottom: 16px;
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 標籤容器 */
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.tag-badge {
+  font-size: 0.72rem;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  color: var(--text-muted);
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: var(--transition-fast);
+}
+
+.tag-badge:hover {
+  background: #ecfdf5;
+  border-color: var(--primary);
+  color: var(--primary-hover);
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(90deg, var(--card-border) 0%, rgba(255,255,255,0.01) 100%);
+  margin-bottom: 16px;
+}
+
+/* 詳細聯絡資訊列表 */
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+  flex-grow: 1;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.85rem;
+}
+
+.info-icon {
+  width: 16px;
+  height: 16px;
+  color: var(--primary);
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.info-text {
+  color: #4b5563;
+  word-break: break-all;
+  flex-grow: 1;
+}
+
+.highlight-transit {
+  color: var(--text-highlight);
+  font-weight: 600;
+}
+
+.closed-label {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.tel-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition-fast);
+}
+
+.tel-link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* 複製地址按鈕 */
+.copy-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 2px;
+  margin-left: 6px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.copy-btn:hover {
+  color: var(--text-main);
+  background: #f1f5f9;
+}
+
+.copy-btn.copied {
+  background: #ecfdf5;
+}
+
+.copy-icon {
+  width: 14px;
+  height: 14px;
+}
+
+/* 卡片按鈕群組 */
+.btn-group {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.map-view-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 10px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  border-radius: var(--radius-md);
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+}
+
+.map-view-btn:hover {
+  border-color: var(--primary);
+  background: #ecfdf5;
+  color: var(--primary-hover);
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.1);
+}
+
+.map-btn {
+  flex: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 10px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+  font-family: var(--font-title);
+  font-weight: 800;
+  font-size: 0.88rem;
+  border: none;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.25);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  letter-spacing: 0.02em;
+}
+
+.map-btn:hover {
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(16, 185, 129, 0.35);
+}
+
+.map-btn:active, .map-view-btn:active {
+  transform: scale(0.98);
+}
+
+.map-btn-icon, .btn-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* 素食指南資訊板 */
+.guide-card {
+  background: #ffffff;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  box-shadow: var(--shadow-md);
+}
+
+.guide-title-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.guide-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--primary-hover);
+}
+
+.guide-card h2 {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.guide-col h3 {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-highlight);
+  margin-bottom: 12px;
+}
+
+.guide-col ul {
+  list-style-type: none;
+}
+
+.guide-col li {
+  margin-bottom: 10px;
+  font-size: 0.88rem;
+  color: #374151;
+  padding-left: 16px;
+  position: relative;
+}
+
+.guide-col li::before {
+  content: "•";
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.guide-phrase {
+  font-family: monospace;
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #0f172a;
+  border: 1px solid #e2e8f0;
+  font-weight: 600;
+}
+
+/* 沒有結果顯示 */
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+  background: #f8fafc;
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--card-border);
+}
+
+.no-results-icon {
+  width: 48px;
+  height: 48px;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  opacity: 0.7;
+}
+
+.no-results h3 {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.no-results p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* Toast 彈出式通知樣式 */
+.toast {
+  position: fixed;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0f172a;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  z-index: 9999;
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.toast.show {
+  bottom: 30px;
+  opacity: 1;
+}
+
+/* 浮動浮現動畫 */
+@keyframes float-slow {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-4px) rotate(2deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+/* 響應式微調 */
+@media (max-width: 768px) {
+  header {
+    padding: 30px 0 16px 0;
+  }
+  
+  h1 {
+    font-size: 2.1rem;
+  }
+  
+  .logo-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .filter-section {
+    padding: 16px;
+    border-radius: var(--radius-md);
+  }
+  
+  #search-bar {
+    padding: 12px 16px 12px 42px;
+    font-size: 0.95rem;
+  }
+  
+  .search-icon {
+    left: 14px;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .tab-btn {
+    padding: 6px 14px;
+    font-size: 0.85rem;
+  }
+
+  .status-filter-wrapper {
+    gap: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  .status-radio-label {
+    padding: 5px 10px;
+    font-size: 0.78rem;
+  }
+
+  .geo-btn {
+    padding: 12px 16px;
+    font-size: 0.88rem;
+    margin-bottom: 20px;
+  }
+
+  .toggle-map-btn {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+    width: 100%; /* 手機版按鈕寬度拉滿 */
+  }
+
+  #map {
+    height: 300px;
+  }
+
+  .map-container {
+    margin-bottom: 24px;
+  }
+  
+  .restaurant-grid {
+    gap: 20px;
+  }
+  
+  .restaurant-card {
+    border-radius: var(--radius-md);
+  }
+  
+  .card-hero {
+    height: 100px;
+  }
+  
+  .card-content {
+    padding: 18px;
+  }
+  
+  .restaurant-name {
+    font-size: 1.15rem;
+  }
+
+  .open-status-badge {
+    font-size: 0.68rem;
+    padding: 2px 6px;
+  }
+  
+  .description {
+    font-size: 0.88rem;
+    margin-bottom: 12px;
+  }
+  
+  .info-list {
+    margin-bottom: 18px;
+  }
+  
+  .btn-group {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .map-view-btn, .map-btn {
+    width: 100%;
+    padding: 11px 14px;
+    font-size: 0.85rem;
+  }
+  
+  .guide-card {
+    padding: 20px;
+  }
+}
