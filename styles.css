@@ -707,6 +707,12 @@ h1 {
   border: 1px solid #a7f3d0;
 }
 
+.status-lacto-ovo {
+  background: #eff6ff;
+  color: #2563eb;
+  border: 1px solid #bfdbfe;
+}
+
 .status-option {
   background: #fffbeb;
   color: #d97706;
