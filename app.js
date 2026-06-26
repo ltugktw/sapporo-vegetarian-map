@@ -5405,7 +5405,6 @@ let currentRenderedData = [...restaurants];
 
 // 初始化網頁與事件監聽
 document.addEventListener("DOMContentLoaded", () => {
-  renderRestaurants(restaurants);
   setupFilters();
   setupSearch();
   setupStatusFilter();
@@ -5413,6 +5412,8 @@ document.addEventListener("DOMContentLoaded", () => {
   setupMapToggle();
   setupGeolocation();
   registerServiceWorker();
+  // 依據畫面上初始勾選狀態進行第一次篩選與渲染
+  filterList();
 });
 
 // 計算日本時間 (JST = UTC+9)
@@ -5985,10 +5986,20 @@ function filterByTag(tag) {
   }
 }
 
-// 10. 綜合篩選邏輯 (搜尋 + 類別 + 營業中篩選)
+// 10. 綜合篩選邏輯 (搜尋 + 地區複選 + 類別複選 + 素食分類複選 + 營業中篩選)
 function filterList() {
-  const activeTab = document.querySelector(".tab-btn.active");
-  const category = activeTab ? activeTab.getAttribute("data-filter") : "all";
+  // 1. 取得地區複選值
+  const checkedRegions = Array.from(document.querySelectorAll("#region-filter-group .checkbox-pill-input:checked"))
+    .map(el => el.value);
+  
+  // 2. 取得類別複選值
+  const checkedCategories = Array.from(document.querySelectorAll("#category-filter-group .checkbox-pill-input:checked"))
+    .map(el => el.value);
+    
+  // 3. 取得素食種類複選值
+  const checkedVegTypes = Array.from(document.querySelectorAll("#veg-filter-group .checkbox-pill-input:checked"))
+    .map(el => el.value);
+
   const searchInput = document.getElementById("search-bar");
   const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
   
@@ -5997,10 +6008,16 @@ function filterList() {
   const statusFilter = statusFilterEl ? statusFilterEl.value : "all";
 
   let filtered = restaurants.filter(item => {
-    // 1. 分類過濾
-    const matchCategory = (category === "all" || item.category === category);
+    // A. 地區過濾
+    const matchRegion = checkedRegions.includes(item.region);
+
+    // B. 類別過濾
+    const matchCategory = checkedCategories.includes(item.category);
+
+    // C. 素食類型過濾
+    const matchVegType = checkedVegTypes.includes(item.vegStatus);
     
-    // 2. 關鍵字過濾
+    // D. 關鍵字過濾
     const matchQuery = !query || 
       item.name.toLowerCase().includes(query) ||
       item.japaneseName.toLowerCase().includes(query) ||
@@ -6009,10 +6026,10 @@ function filterList() {
       item.transit.toLowerCase().includes(query) ||
       item.tags.some(tag => tag.toLowerCase().includes(query));
       
-    // 3. 營業狀態過濾 (當選擇僅顯示營業中時)
+    // E. 營業狀態過濾 (當選擇僅顯示營業中時)
     const matchStatus = (statusFilter === "all" || isOpenNow(item));
 
-    return matchCategory && matchQuery && matchStatus;
+    return matchRegion && matchCategory && matchVegType && matchQuery && matchStatus;
   });
   
   if (userCoords) {
