@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sapporo-veg-map-v10';
+const CACHE_NAME = 'sapporo-veg-map-v11';
 const ASSETS = [
   './',
   './index.html',
