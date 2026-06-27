@@ -499,8 +499,8 @@ const restaurants = [
     "japaneseName": "にとりのけやき すすきの本店",
     "category": "ramen",
     "categoryLabel": "日式拉麵",
-    "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供蔬菜拉麵/可去肉)",
     "tags": [
       "拉麵",
       "近捷運",
@@ -537,8 +537,8 @@ const restaurants = [
     "japaneseName": "一風堂 札幌狸小路店",
     "category": "ramen",
     "categoryLabel": "日式拉麵",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (植物性拉麵)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供 Plant-Based 赤丸拉麵)",
     "tags": [
       "拉麵",
       "近捷運",
@@ -653,8 +653,8 @@ const restaurants = [
     "japaneseName": "ラーメン しま治",
     "category": "ramen",
     "categoryLabel": "日式拉麵",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (植物性拉麵)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供全素醬油拉麵/可去五辛)",
     "tags": [
       "拉麵",
       "近捷運",
@@ -1117,8 +1117,8 @@ const restaurants = [
     "japaneseName": "麺や 春",
     "category": "ramen",
     "categoryLabel": "日式拉麵",
-    "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供蔬菜拉麵/可去肉)",
     "tags": [
       "拉麵",
       "近捷運",
@@ -1155,8 +1155,8 @@ const restaurants = [
     "japaneseName": "ラーメン札幌 一粒庵 創成川店",
     "category": "ramen",
     "categoryLabel": "日式拉麵",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (植物性拉麵)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供純素味噌拉麵)",
     "tags": [
       "拉麵",
       "近捷運",
@@ -1349,8 +1349,8 @@ const restaurants = [
     "japaneseName": "スープカレー すあげ3",
     "category": "soupcurry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (蔬食湯底)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供純素野菜咖哩)",
     "tags": [
       "湯咖哩",
       "當季時蔬",
@@ -1503,8 +1503,8 @@ const restaurants = [
     "japaneseName": "スープカレー イエロー",
     "category": "soupcurry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (蔬食湯底)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供野菜豆腐咖哩/可選純素底)",
     "tags": [
       "湯咖哩",
       "當季時蔬",
@@ -1695,8 +1695,8 @@ const restaurants = [
     "japaneseName": "スープカレー lavi JRタワー札幌エスタ店",
     "category": "soupcurry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (蔬食湯底)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供椰香蔬菜咖哩/可選昆布底)",
     "tags": [
       "湯咖哩",
       "當季時蔬",
@@ -1849,8 +1849,8 @@ const restaurants = [
     "japaneseName": "スープカレー オニオンズ",
     "category": "soupcurry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (蔬食湯底)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供季節野菜咖哩/純素底)",
     "tags": [
       "湯咖哩",
       "當季時蔬",
@@ -2119,8 +2119,8 @@ const restaurants = [
     "japaneseName": "スープカレー ココロ 円山店",
     "category": "soupcurry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (蔬食湯底)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供有機野菜與豆乳咖哩)",
     "tags": [
       "湯咖哩",
       "當季時蔬",
@@ -2305,8 +2305,8 @@ const restaurants = [
     "japaneseName": "インド料理 ラム",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (植物性餐點)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供全素椰奶咖哩/無烤餅)",
     "tags": [
       "精緻異國",
       "印度料理",
@@ -2453,8 +2453,8 @@ const restaurants = [
     "japaneseName": "ピッツァ サルヴァトーレ クオモ すすきの",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (植物性餐點)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供馬利納拉披薩/去起司純素可)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -2527,8 +2527,8 @@ const restaurants = [
     "japaneseName": "Cafe Blue 円山",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -2601,8 +2601,8 @@ const restaurants = [
     "japaneseName": "リトルジュースバー 札幌本店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (植物性餐點)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (葷食店附純素餐點) (植物性餐點)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -2786,8 +2786,8 @@ const restaurants = [
     "japaneseName": "スターバックス 札幌紀伊國屋書店店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (植物性餐點)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供植物肉堡/燕麥奶)",
     "tags": [
       "精緻異國",
       "咖啡廳",
@@ -2860,8 +2860,8 @@ const restaurants = [
     "japaneseName": "モスバーガー 札幌駅北口店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (植物性餐點)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供植物肉綠漢堡)",
     "tags": [
       "精緻異國",
       "連鎖速食",
@@ -2897,8 +2897,8 @@ const restaurants = [
     "japaneseName": "モスバーガー すすきの店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (植物性餐點)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供植物肉綠漢堡)",
     "tags": [
       "精緻異國",
       "連鎖速食",
@@ -3083,7 +3083,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3121,7 +3121,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3158,8 +3158,8 @@ const restaurants = [
     "japaneseName": "柳月 札幌エスタ店",
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素甜點烘焙",
+    "vegStatus": "lacto-ovo",
+    "vegStatusLabel": "蛋奶素 (傳統日式大福/大眾甜點)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3197,7 +3197,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3235,7 +3235,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3273,7 +3273,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3311,7 +3311,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3349,7 +3349,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3387,7 +3387,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3425,7 +3425,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3539,7 +3539,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3614,8 +3614,8 @@ const restaurants = [
     "japaneseName": "フルーツ＆サラダ カフェ 大通店",
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素甜點烘焙",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (提供新鮮水果沙拉盤與巴西莓碗)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3767,7 +3767,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3804,8 +3804,8 @@ const restaurants = [
     "japaneseName": "柳月 大通店",
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素甜點烘焙",
+    "vegStatus": "lacto-ovo",
+    "vegStatusLabel": "蛋奶素 (傳統日式大福/大眾甜點)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3920,8 +3920,8 @@ const restaurants = [
     "japaneseName": "小樽洋食餐酒館 ISO",
     "category": "bistro",
     "categoryLabel": "精緻異國",
-    "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (瑪格麗特比薩/去起司純素可)",
     "tags": [
       "窯烤比薩",
       "歷史建築",
@@ -4119,7 +4119,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素雙層起司蛋糕)",
     "tags": [
       "起司蛋糕",
       "伴手禮",
@@ -4157,7 +4157,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素牛乳霜淇淋)",
     "tags": [
       "霜淇淋",
       "天然乳源",
@@ -4546,8 +4546,8 @@ const restaurants = [
     "japaneseName": "旭川動物園中央食堂 カフェ",
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
-    "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (蛋奶素水果聖代與點心)",
     "tags": [
       "動物園",
       "水果杯",
@@ -4702,8 +4702,8 @@ const restaurants = [
     "japaneseName": "ふらのワインハウス",
     "category": "bistro",
     "categoryLabel": "精緻異國",
-    "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatus": "vegan-friendly",
+    "vegStatusLabel": "素食友善 (起司鍋與瑪格麗特比薩)",
     "tags": [
       "起司鍋",
       "葡萄美酒",
@@ -4741,7 +4741,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (起司工房現烤起司塔與冰淇淋)",
     "tags": [
       "現烤披薩",
       "手作起司",
@@ -4819,7 +4819,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素薰衣草霜淇淋)",
     "tags": [
       "薰衣草",
       "富良野哈密瓜",
@@ -4935,7 +4935,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蒸玉米與炸土豆餅)",
     "tags": [
       "富田農場",
       "男爵土豆",
@@ -5011,7 +5011,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (美瑛現烤麵包與小麥點心)",
     "tags": [
       "小麥麵包",
       "男爵馬鈴薯",
@@ -5167,7 +5167,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蛋奶素青池汽水布丁與聖代)",
     "tags": [
       "白金青池",
       "藍色布丁",
@@ -5245,7 +5245,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (現烤起司塔與鮮乳霜淇淋)",
     "tags": [
       "酪農場",
       "起司塔",
@@ -5363,7 +5363,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉)",
+    "vegStatusLabel": "蛋奶素 (蒸烤美瑛五彩土豆與番薯塔)",
     "tags": [
       "五彩土豆",
       "烤番薯塔",
@@ -5394,8 +5394,7 @@ const restaurants = [
     "region": "biei",
     "mapLabel": "烤男爵地瓜"
   }
-]
-// 全域地圖與定位相關變數
+]// 全域地圖與定位相關變數
 let map = null;
 let mapMarkers = {};
 let userMarker = null;
