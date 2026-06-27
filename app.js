@@ -84,7 +84,7 @@ const restaurants = [
     "category": "ramen",
     "categoryLabel": "日式拉麵",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (必須提前線上預約)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "近札幌站",
       "排隊名店",
@@ -125,7 +125,7 @@ const restaurants = [
     "category": "soupcurry",
     "categoryLabel": "特色湯咖哩",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (100%植物性無麩質湯底)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "古民家風",
       "無五辛可",
@@ -172,7 +172,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/印度料理",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (標示清晰的北印咖哩)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "狸小路旁",
       "高樓景觀",
@@ -331,8 +331,8 @@ const restaurants = [
     "japaneseName": "一風堂 札幌狸小路店",
     "category": "ramen",
     "categoryLabel": "日式拉麵",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供 Plant-Based 赤丸拉麵)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "拉麵",
       "近捷運",
@@ -370,7 +370,7 @@ const restaurants = [
     "category": "ramen",
     "categoryLabel": "日式拉麵",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供全素醬油拉麵/可去五辛)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "拉麵",
       "近捷運",
@@ -408,7 +408,7 @@ const restaurants = [
     "category": "ramen",
     "categoryLabel": "日式拉麵",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供純素味噌拉麵)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "拉麵",
       "近捷運",
@@ -448,7 +448,7 @@ const restaurants = [
     "category": "soupcurry",
     "categoryLabel": "特色湯咖哩",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供純素野菜咖哩)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "湯咖哩",
       "當季時蔬",
@@ -485,8 +485,8 @@ const restaurants = [
     "japaneseName": "スープカレー イエロー",
     "category": "soupcurry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供野菜豆腐咖哩/植物性五辛素底，無肉無蛋奶，含洋蔥五辛)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "湯咖哩",
       "當季時蔬",
@@ -523,8 +523,8 @@ const restaurants = [
     "japaneseName": "スープカレー lavi JRタワー札幌エスタ店",
     "category": "soupcurry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供椰香蔬菜咖哩/植物性五辛素底，含洋蔥五辛)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "湯咖哩",
       "當季時蔬",
@@ -563,8 +563,8 @@ const restaurants = [
     "japaneseName": "スープカレー オニオンズ",
     "category": "soupcurry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供季節野菜咖哩/純素底)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "湯咖哩",
       "當季時蔬",
@@ -604,7 +604,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "精緻異國",
       "印度料理",
@@ -641,7 +641,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "精緻異國",
       "印度料理",
@@ -678,7 +678,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "精緻異國",
       "印度料理",
@@ -715,7 +715,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "精緻異國",
       "印度料理",
@@ -752,7 +752,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供全素椰奶咖哩/無烤餅)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "精緻異國",
       "印度料理",
@@ -788,8 +788,8 @@ const restaurants = [
     "japaneseName": "サイゼリヤ すすきの駅前店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "lacto-ovo",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "精緻異國",
       "平價義式",
@@ -825,8 +825,8 @@ const restaurants = [
     "japaneseName": "サイゼリヤ 札幌駅北口店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "lacto-ovo",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "精緻異國",
       "平價義式",
@@ -862,8 +862,8 @@ const restaurants = [
     "japaneseName": "サイゼリヤ 札幌狸小路店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "lacto-ovo",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "精緻異國",
       "平價義式",
@@ -900,7 +900,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供馬利納拉披薩/去起司純素可)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -936,8 +936,8 @@ const restaurants = [
     "japaneseName": "Cafe Blue 円山",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "lacto-ovo",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -1010,8 +1010,8 @@ const restaurants = [
     "japaneseName": "リトルジュースバー 札幌本店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (葷食店附純素餐點) (植物性餐點)",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "全素 (無蛋奶/無肉無五辛)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -1085,7 +1085,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -1122,7 +1122,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -1159,7 +1159,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -1195,8 +1195,8 @@ const restaurants = [
     "japaneseName": "スターバックス 札幌紀伊國屋書店店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供植物肉堡/燕麥奶)",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "全素 (無蛋奶/無肉無五辛)",
     "tags": [
       "精緻異國",
       "咖啡廳",
@@ -1232,8 +1232,8 @@ const restaurants = [
     "japaneseName": "スターバックス 札幌大通ベビー店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "lacto-ovo",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "精緻異國",
       "咖啡廳",
@@ -1269,8 +1269,8 @@ const restaurants = [
     "japaneseName": "モスバーガー 札幌駅北口店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供植物肉綠漢堡)",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "全素 (無蛋奶/無肉無五辛)",
     "tags": [
       "精緻異國",
       "連鎖速食",
@@ -1306,8 +1306,8 @@ const restaurants = [
     "japaneseName": "モスバーガー すすきの店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供植物肉綠漢堡)",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "全素 (無蛋奶/無肉無五辛)",
     "tags": [
       "精緻異國",
       "連鎖速食",
@@ -1343,13 +1343,14 @@ const restaurants = [
     "japaneseName": "カレーハウスCoCo壱番屋 JR札幌駅パセオ店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "精緻異國",
       "咖哩飯",
       "連鎖店",
-      "Sapporo Station周邊"
+      "Sapporo Station周邊",
+      "五辛素咖哩"
     ],
     "rating": 4.6,
     "description": "提供專屬『蔬菜咖哩醬（無肉無蛋奶，但包含洋蔥與大蒜五辛）』，為乾淨的五辛素咖哩（無法去除五辛），適合吃五辛素的旅客。其餘一般配菜可能與葷食共用炸鍋，介意者請選水煮配菜。",
@@ -1380,13 +1381,14 @@ const restaurants = [
     "japaneseName": "カレーハウスCoCo壱番屋 中央区すすきの店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "精緻異國",
       "咖哩飯",
       "連鎖店",
-      "Susukino周邊"
+      "Susukino周邊",
+      "五辛素咖哩"
     ],
     "rating": 4.7,
     "description": "提供專屬『蔬菜咖哩醬（無肉無蛋奶，但包含洋蔥與大蒜五辛）』，為乾淨的五辛素咖哩（無法去除五辛），適合吃五辛素的旅客。其餘一般配菜可能與葷食共用炸鍋，介意者請選水煮配菜。",
@@ -1417,8 +1419,8 @@ const restaurants = [
     "japaneseName": "ドトールコーヒーショップ 札幌駅地下街店",
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -1986,8 +1988,8 @@ const restaurants = [
     "japaneseName": "フルーツ＆サラダ カフェ 大通店",
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供新鮮水果沙拉盤與巴西莓碗)",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "全素 (無蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -2215,7 +2217,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供專屬野菜壽司)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "壽司",
       "近運河",
@@ -2292,8 +2294,8 @@ const restaurants = [
     "japaneseName": "小樽らーめん ときや",
     "category": "ramen",
     "categoryLabel": "日式拉麵",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (特製素醬油拉麵)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "拉麵",
       "無肉湯底",
@@ -2489,7 +2491,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (標示清晰的北印素咖哩)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "印度料理",
       "烤餅",
@@ -2606,8 +2608,8 @@ const restaurants = [
     "japaneseName": "旭川動物園中央食堂 カフェ",
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (蛋奶素水果聖代與點心)",
+    "vegStatus": "lacto-ovo",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "動物園",
       "水果杯",
@@ -2684,8 +2686,8 @@ const restaurants = [
     "japaneseName": "ふらのワインハウス",
     "category": "bistro",
     "categoryLabel": "精緻異國",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (起司鍋與瑪格麗特比薩)",
+    "vegStatus": "lacto-ovo",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "起司鍋",
       "葡萄美酒",
@@ -2839,7 +2841,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (北海道時蔬沙拉自助餐)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "自助餐",
       "時蔬吃到飽",
@@ -2914,8 +2916,8 @@ const restaurants = [
     "japaneseName": "富良野 歓寒村カフェ",
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (森林咖啡與熱豆乳)",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "全素 (無蛋奶/無肉無五辛)",
     "tags": [
       "森林小屋",
       "小木屋",
@@ -2990,8 +2992,8 @@ const restaurants = [
     "japaneseName": "カフェ 美瑛の丘",
     "category": "bistro",
     "categoryLabel": "精緻異國",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供美瑛時蔬咖哩盤)",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "全素 (無蛋奶/無肉無五辛)",
     "tags": [
       "景觀餐廳",
       "拼布之丘",
@@ -3030,8 +3032,8 @@ const restaurants = [
     "japaneseName": "カフェ・ド・ラ・ペ (La Paix)",
     "category": "bistro",
     "categoryLabel": "精緻異國",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (熱溶拉可雷特起司與男爵馬鈴薯)",
+    "vegStatus": "lacto-ovo",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "森林老屋",
       "烤起司",
@@ -3070,8 +3072,8 @@ const restaurants = [
     "japaneseName": "美瑛小麥 カフェ",
     "category": "bistro",
     "categoryLabel": "精緻異國",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (手作時蔬起司三明治)",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "全素 (無蛋奶/無肉無五辛)",
     "tags": [
       "三明治",
       "有機沙拉",
@@ -3935,7 +3937,7 @@ const restaurants = [
     "category": "cafe",
     "categoryLabel": "甜點與烘焙",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "豆沙拉",
       "全素飯糰",
@@ -3974,7 +3976,7 @@ const restaurants = [
     "category": "cafe",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "植物奶咖啡",
       "去肉去起司",
@@ -4013,7 +4015,7 @@ const restaurants = [
     "category": "cafe",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "小農蔬菜",
       "沙拉盤",
@@ -4052,7 +4054,7 @@ const restaurants = [
     "category": "cafe",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "無肉高湯",
       "去蛋奶起司",
@@ -4092,7 +4094,7 @@ const restaurants = [
     "category": "cafe",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "大豆肉咖哩",
       "去五辛可",
@@ -4131,7 +4133,7 @@ const restaurants = [
     "category": "cafe",
     "categoryLabel": "甜點與烘焙",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "植物肉漢堡",
       "去五辛客製",
@@ -4170,7 +4172,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "純素漢堡",
       "沙拉吧",
@@ -4207,7 +4209,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "有機蔬食套餐",
       "無柴魚大骨",
@@ -4246,7 +4248,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "有機便當",
       "錢函海灘",
@@ -4286,7 +4288,7 @@ const restaurants = [
     "category": "japanese",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "昆布沾汁",
       "去柴魚大骨",
@@ -4328,8 +4330,8 @@ const restaurants = [
     "japaneseName": "小樽チュロス",
     "category": "cafe",
     "categoryLabel": "甜點與烘焙",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "全素 (無蛋奶/無肉無五辛)",
     "tags": [
       "吉拿棒",
       "無蛋無奶",
@@ -4405,8 +4407,8 @@ const restaurants = [
     "japaneseName": "地球のうた",
     "category": "cafe",
     "categoryLabel": "精緻異國/食養",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "大豆肉飯",
       "去五辛客製",
@@ -4446,7 +4448,7 @@ const restaurants = [
     "category": "cafe",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "養生定食",
       "去肉去蛋奶",
@@ -4485,7 +4487,7 @@ const restaurants = [
     "category": "japanese",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "無肉無柴魚",
       "烏龍麵",
@@ -4528,7 +4530,7 @@ const restaurants = [
     "category": "japanese",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "昆布蔬菜沾醬",
       "無蛋麵衣",
@@ -4570,8 +4572,8 @@ const restaurants = [
     "japaneseName": "波しぶき 小樽店",
     "category": "ramen",
     "categoryLabel": "日式拉麵",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "蔬菜拉麵",
       "無柴魚大骨",
@@ -4653,7 +4655,7 @@ const restaurants = [
     "category": "ramen",
     "categoryLabel": "日式拉麵",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "專用蔬食湯底",
       "純素餃子",
@@ -4689,8 +4691,8 @@ const restaurants = [
     "japaneseName": "寿スパイス",
     "category": "curry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "老屋香料咖哩",
       "去肉去起司",
@@ -4729,7 +4731,7 @@ const restaurants = [
     "category": "cafe",
     "categoryLabel": "甜點與烘焙",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "大豆素雞丁",
       "燕麥奶拿鐵",
@@ -4768,7 +4770,7 @@ const restaurants = [
     "category": "japanese",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "昆布素沾汁",
       "無蛋麵衣",
@@ -4810,8 +4812,8 @@ const restaurants = [
     "japaneseName": "イゲア",
     "category": "curry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "有機香料咖哩",
       "去大骨去柴魚",
@@ -4854,7 +4856,7 @@ const restaurants = [
     "category": "japanese",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "料亭蔬食",
       "無蛋麵衣天婦羅",
@@ -4896,8 +4898,8 @@ const restaurants = [
     "japaneseName": "ローロー バイ ヴォレアス",
     "category": "cafe",
     "categoryLabel": "甜點與烘焙",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "植物肉捲餅",
       "大豆肉咖哩",
@@ -4976,7 +4978,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "預約制純素套餐",
       "有機時蔬",
@@ -5012,8 +5014,8 @@ const restaurants = [
     "japaneseName": "スリヤ富良野",
     "category": "curry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "尼泊爾咖哩",
       "去肉",
@@ -5056,7 +5058,7 @@ const restaurants = [
     "category": "cafe",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "古民家咖啡",
       "自產野菜",
@@ -5094,8 +5096,8 @@ const restaurants = [
     "japaneseName": "アマデウス",
     "category": "curry",
     "categoryLabel": "特色湯咖哩",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "椰奶香菇咖哩",
       "無蛋無奶",
@@ -5173,7 +5175,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "蔬食居酒屋",
       "大豆素肉",
@@ -5251,8 +5253,8 @@ const restaurants = [
     "japaneseName": "ホテイヤサンドイッチ",
     "category": "cafe",
     "categoryLabel": "甜點與烘焙",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "豆腐三明治",
       "去起司",
@@ -5290,8 +5292,8 @@ const restaurants = [
     "japaneseName": "ペンネンノルデ",
     "category": "cafe",
     "categoryLabel": "甜點與烘焙",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "全素 (無蛋奶/無肉無五辛)",
     "tags": [
       "純素馬芬",
       "支笏湖畔",
@@ -5330,8 +5332,8 @@ const restaurants = [
     "japaneseName": "リコリコ 千歳店",
     "category": "cafe",
     "categoryLabel": "甜點與烘焙",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "pure-vegan",
+    "vegStatusLabel": "全素 (無蛋奶/無肉無五辛)",
     "tags": [
       "純素水果雪酪",
       "夕張哈密瓜",
@@ -5367,8 +5369,8 @@ const restaurants = [
     "japaneseName": "アソンブロッソ 新千歳空港店",
     "category": "cafe",
     "categoryLabel": "甜點與烘焙",
-    "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "純素美乃滋",
       "北海道男爵馬鈴薯",
@@ -5405,7 +5407,7 @@ const restaurants = [
     "category": "japanese",
     "categoryLabel": "精緻異國/食養",
     "vegStatus": "vegan-friendly",
-    "vegStatusLabel": "素食友善 (提供素食選項/標示明確)",
+    "vegStatusLabel": "素食友善 (可完全客製：去肉/去蛋/去奶/去五辛)",
     "tags": [
       "純素昆布高湯",
       "烏龍麵",
