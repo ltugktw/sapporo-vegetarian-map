@@ -7,7 +7,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/咖啡廳",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (五辛友善)",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "無五辛可",
       "無添加",
@@ -44,7 +44,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/食養料理",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (無肉無蛋奶)",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "有機穀物",
       "食養定食",
@@ -299,7 +299,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (無麩質甜點專門店)",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "無麩質",
       "無蛋奶",
@@ -340,7 +340,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙/輕食餐盒",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (有機健康手作)",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "古代小麥",
       "酵素玄米便當",
@@ -377,7 +377,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙/古民家咖啡廳",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (無麩質烘焙)",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "古民家",
       "東區",
@@ -2565,7 +2565,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (植物性餐點)",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -2639,7 +2639,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國/餐酒館",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (植物性餐點)",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "精緻異國",
       "網美咖啡",
@@ -3083,7 +3083,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3121,7 +3121,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3159,7 +3159,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (傳統日式大福/大眾甜點)",
+    "vegStatusLabel": "蛋奶素 (傳統日式大福/無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3197,7 +3197,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3235,7 +3235,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3273,7 +3273,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3311,7 +3311,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3349,7 +3349,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3387,7 +3387,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3425,7 +3425,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3463,7 +3463,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素甜點烘焙",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3501,7 +3501,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素甜點烘焙",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3539,7 +3539,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3577,7 +3577,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素甜點烘焙",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3653,7 +3653,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素甜點烘焙",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3691,7 +3691,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素甜點烘焙",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3729,7 +3729,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素甜點烘焙",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3767,7 +3767,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素甜點/無肉成分)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -3805,7 +3805,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (傳統日式大福/大眾甜點)",
+    "vegStatusLabel": "蛋奶素 (傳統日式大福/無五辛)",
     "tags": [
       "甜點烘焙",
       "伴手禮",
@@ -4001,7 +4001,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (綠色健康輕食)",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "純素昔",
       "有機沙拉",
@@ -4119,7 +4119,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素雙層起司蛋糕)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "起司蛋糕",
       "伴手禮",
@@ -4157,7 +4157,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素牛乳霜淇淋)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "霜淇淋",
       "天然乳源",
@@ -4348,8 +4348,8 @@ const restaurants = [
     "japaneseName": "カフェ リベラ 旭川店",
     "category": "bistro",
     "categoryLabel": "精緻異國",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (自家有機栽種野菜簡餐)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "純素定食",
       "有機糙米",
@@ -4388,8 +4388,8 @@ const restaurants = [
     "japaneseName": "サニーサイド カフェ 旭川店",
     "category": "bistro",
     "categoryLabel": "精緻異國",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (美式純素漢堡專賣)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "植物漢堡",
       "炸薯條",
@@ -4467,7 +4467,7 @@ const restaurants = [
     "category": "bistro",
     "categoryLabel": "精緻異國",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (正宗食養Macrobiotic套餐)",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "食養定食",
       "無糖甜點",
@@ -4507,7 +4507,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (天然酵母有機小麥麵包店)",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "純素麵包",
       "天然酵母",
@@ -4622,8 +4622,8 @@ const restaurants = [
     "japaneseName": "カフェ 五葉 (Goryo)",
     "category": "bistro",
     "categoryLabel": "精緻異國",
-    "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (百年古民家農園咖哩)",
+    "vegStatus": "alliums-vegan",
+    "vegStatusLabel": "五辛素 (無肉蛋奶/有五辛)",
     "tags": [
       "古民家",
       "田園咖哩",
@@ -4741,7 +4741,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (起司工房現烤起司塔與冰淇淋)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "現烤披薩",
       "手作起司",
@@ -4779,7 +4779,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "pure-vegan",
-    "vegStatusLabel": "100% 純素 (傳統日式手作純素和菓子)",
+    "vegStatusLabel": "純素 (無肉蛋奶五辛)",
     "tags": [
       "和菓子",
       "抹茶紅豆",
@@ -4819,7 +4819,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素薰衣草霜淇淋)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "薰衣草",
       "富良野哈密瓜",
@@ -4935,7 +4935,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蒸玉米與炸土豆餅)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "富田農場",
       "男爵土豆",
@@ -5011,7 +5011,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (美瑛現烤麵包與小麥點心)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "小麥麵包",
       "男爵馬鈴薯",
@@ -5167,7 +5167,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蛋奶素青池汽水布丁與聖代)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "白金青池",
       "藍色布丁",
@@ -5245,7 +5245,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (現烤起司塔與鮮乳霜淇淋)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "酪農場",
       "起司塔",
@@ -5363,7 +5363,7 @@ const restaurants = [
     "category": "bakery",
     "categoryLabel": "甜點烘焙",
     "vegStatus": "lacto-ovo",
-    "vegStatusLabel": "蛋奶素 (蒸烤美瑛五彩土豆與番薯塔)",
+    "vegStatusLabel": "蛋奶素 (含蛋奶/無肉無五辛)",
     "tags": [
       "五彩土豆",
       "烤番薯塔",
@@ -5702,6 +5702,8 @@ function renderRestaurants(data) {
     let statusClass = "status-option";
     if (item.vegStatus === "pure-vegan") {
       statusClass = "status-pure";
+    } else if (item.vegStatus === "alliums-vegan") {
+      statusClass = "status-alliums-vegan";
     } else if (item.vegStatus === "lacto-ovo") {
       statusClass = "status-lacto-ovo";
     }
